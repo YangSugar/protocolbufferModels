@@ -1,0 +1,157 @@
+syntax = "proto2";
+
+package com.xinhuibao.cloud.app.mars.model;
+
+option java_outer_classname = "Order";
+
+message OrderRequest {
+
+   required  string putSymbol = 1; //交易产品编号 llg 伦敦金 lls 伦敦银
+
+   required  int32 cmd = 2;  //交易方向  0买涨 1买跌
+
+   required  float price = 3; // 建仓价格
+
+   required  float volume = 4; //交易手数
+
+   optional  float sl = 5; //止损
+
+   optional  float tp = 6; //止盈
+
+   optional  float deviation = 7; //滑点
+
+   optional  string comment = 8; //说明
+
+   required string  userToken=9;  //用户标识
+
+   required int32  rand=10;
+
+   required int64  time=11;
+
+   optional string sessionId = 12;
+
+
+}
+
+message OrderResponse {
+
+   required  int32 success = 1;
+
+   optional  int32 errCode = 2;
+
+   optional  string message = 3;
+
+   optional  OrderResponseData value = 4;
+
+   optional string sessionId = 5;
+
+
+}
+
+
+
+message OrderResponseData {
+
+   optional  float ask = 4;
+
+   optional  float bid = 5;
+
+   optional  int64 order = 6;
+
+}
+
+
+message CloseRequest {
+
+   required  string ticket = 1; //交易产品编号
+
+   required  float price = 2; // 平仓价格
+
+   required  float volume = 3; //交易手数
+
+   required string  userToken=4;  //用户标识
+
+   required int32  rand=5;
+
+   required int64  time=6;
+
+   optional string sessionId = 7;
+}
+
+
+message CloseResponse {
+
+   required  int32 success = 1;
+
+   optional  int32 errCode = 2;
+
+   optional  string message = 3;
+
+   optional string sessionId = 4;
+
+
+}
+
+
+message CancelRequest {
+
+   required  string ticket = 1; //交易产品编号
+
+   required string  userToken=2;  //用户标识
+
+   required int32  rand=3;
+
+   required int64  time=4;
+
+   optional string sessionId = 5;
+
+}
+
+
+message CancelResponse {
+
+   required  int32 success = 1;
+
+   optional  int32 errCode = 2;
+
+   optional  string message = 3;
+
+
+   optional string sessionId = 4;
+
+
+}
+
+
+message ModifyRequest {
+
+   required  string ticket = 1; //交易产品编号
+
+   optional  float tp = 2; // 止盈
+
+   optional  float sl = 3; //止损
+
+   required string  userToken=4;  //用户标识
+
+   required int32  rand=5;
+
+   required int64  time=6;
+
+   optional string sessionId = 7;
+}
+
+
+
+message ModifyResponse {
+
+   required  int32 success = 1;
+
+   optional  int32 errCode = 2;
+
+   optional  string message = 3;
+
+
+   optional string sessionId = 4;
+
+
+}

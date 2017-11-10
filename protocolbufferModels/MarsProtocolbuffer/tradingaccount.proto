@@ -1,0 +1,45 @@
+
+syntax = "proto2";
+
+package com.xinhuibao.cloud.app.mars.shortlink.model;
+
+
+option java_outer_classname = "TradingAccount";
+
+
+message TradingAccountRequest {
+
+   optional string sessionId = 2;
+   required string  userToken=1;  //用户标识
+
+}
+
+
+message TradingAccountData {
+
+      optional  double  prevMonthBalance=1; //可用预付款
+      optional  double equity=2; //净值
+      optional double  credit=3; //信用
+      optional double marginLevel=4; //风险率
+      optional double  balance=5; //余额
+      optional double margin=6; //已用预付款
+      optional double FL=7;     // 浮动盈亏
+      optional double marginFree=8; //可用预付款
+
+
+}
+
+
+message TradingAccountResponse {
+
+   required  int32 success = 1;
+
+   optional  int32 errCode = 2;
+
+   optional  string message = 3;
+
+   optional  TradingAccountData value=4;
+
+   optional string sessionId = 5;
+
+}
