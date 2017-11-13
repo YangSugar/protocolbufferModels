@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   end
 
    spec.subspec 'junjin-marsModels' do |ss|
-    ss.source_files = 'protocolbufferModels/MarsProtocolbuffer/**','protocolbufferModels/models/haha'
+    ss.source_files = 'protocolbufferModels/MarsProtocolbuffer/**','protocolbufferModels/models/*'
     ss.requires_arc = false
   end
 
