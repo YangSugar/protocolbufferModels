@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'protobufModels-proto' do |ss|
     #ss.source_files = 'protocolbufferModels/protobufModels/jujin-Hq/*','protocolbufferModels/protobufModels/jujin-Trade/*'
-    ss.source_files = 'protocolbufferModels/protobufModels/jujin-Hq/*.{proto}'
+    ss.source_files = 'protocolbufferModels/protobufModels/*.{proto}'
 
 
     
