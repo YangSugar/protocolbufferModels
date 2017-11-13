@@ -18,8 +18,8 @@ Pod::Spec.new do |spec|
     ss.requires_arc = false
   end
 
-  spec.subspec 'protobufModels' do |bb|
-    bb.source_files = 'protocolbufferModels/protobufModels'
+  spec.subspec 'protobufModels11111' do |ss|
+    ss.source_files = 'protocolbufferModels/protobufModels'
   end
 
   spec.subspec 'jujjinProtocolbufferModels' do |ss|
