@@ -1,7 +1,7 @@
 platform :ios, '8.0'
 
-pod 'protocolbufferModels',:path => '/Users/YangSugar/Documents/公司项目/protocolbufferModels'
+target :'MdoleTest' do
 
-target :'protocolbufferModels' do
+	pod 'protocolbufferModels',:git => 'https://github.com/YangSugar/protocolbufferModels.git'
 
 end
