@@ -28,4 +28,5 @@ required float buy = 11;
 required float sell = 12;
 
 required int32 status = 13;
+
 }

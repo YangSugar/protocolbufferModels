@@ -60,6 +60,7 @@ typedef GPB_ENUM(QuotationData_FieldNumber) {
   QuotationData_FieldNumber_Buy = 11,
   QuotationData_FieldNumber_Sell = 12,
   QuotationData_FieldNumber_Status = 13,
+  QuotationData_FieldNumber_Status111 = 14,
 };
 
 @interface QuotationData : GPBMessage
@@ -107,6 +108,9 @@ typedef GPB_ENUM(QuotationData_FieldNumber) {
 @property(nonatomic, readwrite) int32_t status;
 
 @property(nonatomic, readwrite) BOOL hasStatus;
+@property(nonatomic, readwrite) int32_t status111;
+
+@property(nonatomic, readwrite) BOOL hasStatus111;
 @end
 
 NS_ASSUME_NONNULL_END
