@@ -19,10 +19,8 @@ Pod::Spec.new do |spec|
   end
 
   spec.subspec 'protobufModels-proto' do |ss|
-    #ss.source_files = 'protocolbufferModels/protobufModels/jujin-Hq/*','protocolbferModels/protobufModels/jujin-Trade/*'
-    ss.subspec '---' do |sss|
-      sss.source_files = 'protocolbufferModels/protobufModels/jujin-Hq/*.{proto}','protocolbufferModels/protobufModels/jujin-Trade/*.{proto}'  
-    end
+    #ss.source_files = 'protocolbufferModels/protobufModels/jujin-Hq/*','protocolbufferModels/protobufModels/jujin-Trade/*'
+    ss.source_files = 'protocolbufferModels/protobufModels/jujin-Hq/*.{proto}','protocolbufferModels/protobufModels/jujin-Trade/*.{proto}'
   end
 
   spec.subspec 'jujjinProtocolbufferModels' do |ss|
@@ -30,10 +28,11 @@ Pod::Spec.new do |spec|
         sss.source_files = 'protocolbufferModels/jujjinProtocolbufferModels/jujin-Hq/*'
         sss.requires_arc = false;  
       end
+
       ss.subspec 'jujin-Trade' do |sss|
         sss.source_files = 'protocolbufferModels/jujjinProtocolbufferModels/jujin-Trade/*'
         sss.requires_arc = false; 
-      ends
+      end
   end
 
 
