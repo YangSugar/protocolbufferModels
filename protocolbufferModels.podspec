@@ -12,6 +12,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '8.0'
   spec.requires_arc = true
 
+
   spec.subspec 'protobuf' do |ss|
     ss.source_files = 'protocolbufferModels/protobuf/*'
     ss.requires_arc = false
@@ -22,10 +23,8 @@ Pod::Spec.new do |spec|
   end
 
    spec.subspec 'jujjinProtocolbufferModels' do |ss|
-    ss.source_files = {
-      'protocolbufferModels/jujjinProtocolbufferModels/jujin-Hq',
-      'protocolbufferModels/jujjinProtocolbufferModels/jujin-Trade'
-      }
+    ss.source_files = 'protocolbufferModels/jujjinProtocolbufferModels/jujin-Hq/*','protocolbufferModels/jujjinProtocolbufferModels/jujin-Trade/*'
+    ss.requires_arc = false;  
   end
 
 
