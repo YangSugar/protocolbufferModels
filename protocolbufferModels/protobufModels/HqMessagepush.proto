@@ -1,0 +1,31 @@
+syntax = "proto2";
+package com.jjyh.adt.hq.model;
+
+message QuotationData {
+
+required string code = 1;
+
+required string name = 2;
+
+required float last = 3;
+
+required float open = 4;
+
+required float high = 5;
+
+required float low = 6;
+
+required float lastclose=7;
+
+required string excode = 8;
+
+required string exname = 9;
+
+required int64 quoteTime = 10;
+
+required float buy = 11;
+
+required float sell = 12;
+
+required int32 status = 13;
+}
