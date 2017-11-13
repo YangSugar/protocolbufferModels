@@ -19,8 +19,7 @@ Pod::Spec.new do |spec|
   end
 
   spec.subspec 'protobufModels-proto' do |ss|
-    #ss.source_files = 'protocolbufferModels/jujjinProtocolbufferModels/protobufModels'
-    ss.source_files = 'protocolbufferModels/jujjinProtocolbufferModels/jujin-Hq/*'
+    ss.source_files = 'protocolbufferModels/protobufModels/*'
   end
 
   spec.subspec 'jujjinProtocolbufferModels' do |ss|
