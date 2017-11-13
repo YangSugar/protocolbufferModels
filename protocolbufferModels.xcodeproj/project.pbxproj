@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B65D2CBC1FB94B220078EB86 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D2CBB1FB94B220078EB86 /* Test.m */; };
 		B6A2D0F41FB5423A00B245D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A2D0F31FB5423A00B245D0 /* AppDelegate.m */; };
 		B6A2D0F71FB5423A00B245D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A2D0F61FB5423A00B245D0 /* ViewController.m */; };
 		B6A2D0FA1FB5423A00B245D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A2D0F81FB5423A00B245D0 /* Main.storyboard */; };
@@ -60,6 +61,8 @@
 /* Begin PBXFileReference section */
 		4F9D5B1CD3E24DD51AF868E0 /* Pods-protocolbufferModels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-protocolbufferModels.debug.xcconfig"; path = "Pods/Target Support Files/Pods-protocolbufferModels/Pods-protocolbufferModels.debug.xcconfig"; sourceTree = "<group>"; };
 		B3BAB4A6CABD5AD7AAAFA727 /* Pods-protocolbufferModels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-protocolbufferModels.release.xcconfig"; path = "Pods/Target Support Files/Pods-protocolbufferModels/Pods-protocolbufferModels.release.xcconfig"; sourceTree = "<group>"; };
+		B65D2CBA1FB94B220078EB86 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		B65D2CBB1FB94B220078EB86 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		B6A2D0EF1FB5423A00B245D0 /* protocolbufferModels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = protocolbufferModels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A2D0F21FB5423A00B245D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6A2D0F31FB5423A00B245D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -250,6 +253,8 @@
 				B6D42CA11FB599AA001E2FB5 /* Queryorder.pbobjc.m */,
 				B6D42C9F1FB599AA001E2FB5 /* Tradingaccount.pbobjc.h */,
 				B6D42CA01FB599AA001E2FB5 /* Tradingaccount.pbobjc.m */,
+				B65D2CBA1FB94B220078EB86 /* Test.h */,
+				B65D2CBB1FB94B220078EB86 /* Test.m */,
 			);
 			name = models;
 			path = protocolbufferModels/models;
@@ -502,6 +507,7 @@
 				B6D42CA61FB599AA001E2FB5 /* Queryorder.pbobjc.m in Sources */,
 				B6D42CED1FB5A6FA001E2FB5 /* GPBCodedInputStream.m in Sources */,
 				B6D42CE91FB5A6FA001E2FB5 /* Duration.pbobjc.m in Sources */,
+				B65D2CBC1FB94B220078EB86 /* Test.m in Sources */,
 				B6D42CEB1FB5A6FA001E2FB5 /* FieldMask.pbobjc.m in Sources */,
 				B6D42CF91FB5A6FA001E2FB5 /* GPBWireFormat.m in Sources */,
 				B6D42CFC1FB5A6FA001E2FB5 /* Timestamp.pbobjc.m in Sources */,
