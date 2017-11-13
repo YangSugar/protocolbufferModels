@@ -11,7 +11,9 @@ Pod::Spec.new do |spec|
   spec.source           = { :git => 'https://github.com/YangSugar/protocolbufferModels.git', :tag => spec.version.to_s}
   spec.ios.deployment_target = '8.0'
   spec.source_files = 'protocolbufferModels/protobuf/**'
-  spec.requires_mrc = 'protocolbufferModels/protobuf/**'
+
+  spec.requires_arc = false
+
 
 end
 
