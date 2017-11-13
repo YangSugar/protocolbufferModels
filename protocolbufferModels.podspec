@@ -10,11 +10,13 @@ Pod::Spec.new do |spec|
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.source           = { :git => 'https://github.com/YangSugar/protocolbufferModels.git', :tag => spec.version.to_s}
   spec.ios.deployment_target = '8.0'
-  #spec.source_files = 'protocolbufferModels/protobuf/*','protocolbufferModels/MarsProtocolbuffer/*'
   spec.requires_arc = false
+
+
 
   spec.subspec 'protobuf' do |ss|
     ss.source_files = 'protocolbufferModels/protobuf/*'
+    ss.requires_arc = true
   end
 
    spec.subspec 'junjin-marsModels' do |ss|
