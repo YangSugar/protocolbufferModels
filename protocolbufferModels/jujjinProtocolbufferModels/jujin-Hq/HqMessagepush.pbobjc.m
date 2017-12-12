@@ -36,7 +36,7 @@ static GPBFileDescriptor *HqMessagepushRoot_FileDescriptor(void) {
   static GPBFileDescriptor *descriptor = NULL;
   if (!descriptor) {
     GPB_DEBUG_CHECK_RUNTIME_VERSIONS();
-    descriptor = [[GPBFileDescriptor alloc] initWithPackage:@"com.jjyh.adt.hq.model"
+    descriptor = [[GPBFileDescriptor alloc] initWithPackage:@"com.xinhuibao.cloud.app.mars.model"
                                                      syntax:GPBFileSyntaxProto2];
   }
   return descriptor;
@@ -59,7 +59,6 @@ static GPBFileDescriptor *HqMessagepushRoot_FileDescriptor(void) {
 @dynamic hasBuy, buy;
 @dynamic hasSell, sell;
 @dynamic hasStatus, status;
-@dynamic hasStatus111, status111;
 
 typedef struct QuotationData__storage_ {
   uint32_t _has_storage_[1];
@@ -71,7 +70,6 @@ typedef struct QuotationData__storage_ {
   float buy;
   float sell;
   int32_t status;
-  int32_t status111;
   NSString *code;
   NSString *name;
   NSString *excode;
@@ -199,15 +197,6 @@ typedef struct QuotationData__storage_ {
         .number = QuotationData_FieldNumber_Status,
         .hasIndex = 12,
         .offset = (uint32_t)offsetof(QuotationData__storage_, status),
-        .flags = GPBFieldRequired,
-        .dataType = GPBDataTypeInt32,
-      },
-      {
-        .name = "status111",
-        .dataTypeSpecific.className = NULL,
-        .number = QuotationData_FieldNumber_Status111,
-        .hasIndex = 13,
-        .offset = (uint32_t)offsetof(QuotationData__storage_, status111),
         .flags = GPBFieldRequired,
         .dataType = GPBDataTypeInt32,
       },

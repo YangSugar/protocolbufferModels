@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6119FCE1FDFC41D0003B697 /* HqMessagepush.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6119FCD1FDFC41D0003B697 /* HqMessagepush.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B65D2CCA1FB971F60078EB86 /* gen-protobuf.sh in Resources */ = {isa = PBXBuildFile; fileRef = B65D2CC91FB971F60078EB86 /* gen-protobuf.sh */; };
 		B65D2CE31FB981D40078EB86 /* order.proto in Resources */ = {isa = PBXBuildFile; fileRef = B65D2CDE1FB981D40078EB86 /* order.proto */; };
 		B65D2CE41FB981D40078EB86 /* queryorder.proto in Resources */ = {isa = PBXBuildFile; fileRef = B65D2CDF1FB981D40078EB86 /* queryorder.proto */; };
 		B65D2CE51FB981D40078EB86 /* tradingaccount.proto in Resources */ = {isa = PBXBuildFile; fileRef = B65D2CE01FB981D40078EB86 /* tradingaccount.proto */; };
 		B65D2CE61FB981D40078EB86 /* HqMessagepush.proto in Resources */ = {isa = PBXBuildFile; fileRef = B65D2CE21FB981D40078EB86 /* HqMessagepush.proto */; };
-		B65D2CE91FB983CC0078EB86 /* HqMessagepush.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D2CE81FB983CC0078EB86 /* HqMessagepush.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B65D2CF01FB983D30078EB86 /* Queryorder.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D2CEB1FB983D30078EB86 /* Queryorder.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B65D2CF11FB983D30078EB86 /* Order.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D2CEC1FB983D30078EB86 /* Order.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B65D2CF21FB983D30078EB86 /* Tradingaccount.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D2CEF1FB983D30078EB86 /* Tradingaccount.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -63,13 +63,13 @@
 /* Begin PBXFileReference section */
 		4F9D5B1CD3E24DD51AF868E0 /* Pods-protocolbufferModels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-protocolbufferModels.debug.xcconfig"; path = "Pods/Target Support Files/Pods-protocolbufferModels/Pods-protocolbufferModels.debug.xcconfig"; sourceTree = "<group>"; };
 		B3BAB4A6CABD5AD7AAAFA727 /* Pods-protocolbufferModels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-protocolbufferModels.release.xcconfig"; path = "Pods/Target Support Files/Pods-protocolbufferModels/Pods-protocolbufferModels.release.xcconfig"; sourceTree = "<group>"; };
+		B6119FCC1FDFC41C0003B697 /* HqMessagepush.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HqMessagepush.pbobjc.h; sourceTree = "<group>"; };
+		B6119FCD1FDFC41D0003B697 /* HqMessagepush.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HqMessagepush.pbobjc.m; sourceTree = "<group>"; };
 		B65D2CC91FB971F60078EB86 /* gen-protobuf.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "gen-protobuf.sh"; sourceTree = "<group>"; };
 		B65D2CDE1FB981D40078EB86 /* order.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = order.proto; sourceTree = "<group>"; };
 		B65D2CDF1FB981D40078EB86 /* queryorder.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = queryorder.proto; sourceTree = "<group>"; };
 		B65D2CE01FB981D40078EB86 /* tradingaccount.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tradingaccount.proto; sourceTree = "<group>"; };
 		B65D2CE21FB981D40078EB86 /* HqMessagepush.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HqMessagepush.proto; sourceTree = "<group>"; };
-		B65D2CE71FB983CC0078EB86 /* HqMessagepush.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HqMessagepush.pbobjc.h; sourceTree = "<group>"; };
-		B65D2CE81FB983CC0078EB86 /* HqMessagepush.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HqMessagepush.pbobjc.m; sourceTree = "<group>"; };
 		B65D2CEA1FB983D30078EB86 /* Order.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.pbobjc.h; sourceTree = "<group>"; };
 		B65D2CEB1FB983D30078EB86 /* Queryorder.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Queryorder.pbobjc.m; sourceTree = "<group>"; };
 		B65D2CEC1FB983D30078EB86 /* Order.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.pbobjc.m; sourceTree = "<group>"; };
@@ -224,8 +224,8 @@
 		B65D2CCD1FB9777E0078EB86 /* jujin-Hq */ = {
 			isa = PBXGroup;
 			children = (
-				B65D2CE71FB983CC0078EB86 /* HqMessagepush.pbobjc.h */,
-				B65D2CE81FB983CC0078EB86 /* HqMessagepush.pbobjc.m */,
+				B6119FCC1FDFC41C0003B697 /* HqMessagepush.pbobjc.h */,
+				B6119FCD1FDFC41D0003B697 /* HqMessagepush.pbobjc.m */,
 			);
 			path = "jujin-Hq";
 			sourceTree = "<group>";
@@ -550,7 +550,6 @@
 				B6D42CF91FB5A6FA001E2FB5 /* GPBWireFormat.m in Sources */,
 				B6D42CFC1FB5A6FA001E2FB5 /* Timestamp.pbobjc.m in Sources */,
 				B6D42CF31FB5A6FA001E2FB5 /* GPBMessage.m in Sources */,
-				B65D2CE91FB983CC0078EB86 /* HqMessagepush.pbobjc.m in Sources */,
 				B6D42CE71FB5A6FA001E2FB5 /* Any.pbobjc.m in Sources */,
 				B6D42CF21FB5A6FA001E2FB5 /* GPBExtensionRegistry.m in Sources */,
 				B6A2D0F71FB5423A00B245D0 /* ViewController.m in Sources */,
@@ -565,6 +564,7 @@
 				B6A2D0F41FB5423A00B245D0 /* AppDelegate.m in Sources */,
 				B6D42CEC1FB5A6FA001E2FB5 /* GPBArray.m in Sources */,
 				B65D2CF01FB983D30078EB86 /* Queryorder.pbobjc.m in Sources */,
+				B6119FCE1FDFC41D0003B697 /* HqMessagepush.pbobjc.m in Sources */,
 				B6D42CF11FB5A6FA001E2FB5 /* GPBExtensionInternals.m in Sources */,
 				B6D42CEA1FB5A6FA001E2FB5 /* Empty.pbobjc.m in Sources */,
 				B6D42CEF1FB5A6FA001E2FB5 /* GPBDescriptor.m in Sources */,

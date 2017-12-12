@@ -1,5 +1,11 @@
+
 syntax = "proto2";
-package com.jjyh.adt.hq.model;
+
+package com.xinhuibao.cloud.app.mars.model;
+
+
+option java_outer_classname = "Quotation";
+
 
 message QuotationData {
 
@@ -28,5 +34,6 @@ required float buy = 11;
 required float sell = 12;
 
 required int32 status = 13;
+
 
 }
