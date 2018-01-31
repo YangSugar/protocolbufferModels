@@ -1,7 +1,7 @@
 
 syntax = "proto2";
 
-package com.xinhuibao.cloud.app.mars.shortlink.model;
+package com.xinhuibao.cloud.app.mars.model;
 
 
 option java_outer_classname = "TradingAccount";
@@ -11,6 +11,7 @@ message TradingAccountRequest {
 
    optional string sessionId = 2;
    required string  userToken=1;  //用户标识
+   required string language=3;
 
 }
 
@@ -23,8 +24,9 @@ message TradingAccountData {
       optional double marginLevel=4; //风险率
       optional double  balance=5; //余额
       optional double margin=6; //已用预付款
-      optional double FL=7;     // 浮动盈亏
-      optional double marginFree=8; //可用预付款
+      optional double FL=7; //浮动盈亏
+      optional double marginFree=8;//可用预付款
+
 
 
 }

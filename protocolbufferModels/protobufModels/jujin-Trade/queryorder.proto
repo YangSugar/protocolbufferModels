@@ -2,7 +2,7 @@
 
 syntax = "proto2";
 
-package com.xinhuibao.cloud.app.mars.shortlink.model;
+package com.xinhuibao.cloud.app.mars.model;
 
 
 option java_outer_classname = "QueryOrder";
@@ -15,6 +15,7 @@ message QueryOrderRequest {
    optional string  endTime=4;
    required string  userToken=5;  //用户标识
    optional string  sessionId = 6;
+   required string language=7;
 
 }
 

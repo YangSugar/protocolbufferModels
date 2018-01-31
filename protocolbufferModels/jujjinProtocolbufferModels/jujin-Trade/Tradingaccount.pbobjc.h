@@ -51,6 +51,7 @@ NS_ASSUME_NONNULL_BEGIN
 typedef GPB_ENUM(TradingAccountRequest_FieldNumber) {
   TradingAccountRequest_FieldNumber_UserToken = 1,
   TradingAccountRequest_FieldNumber_SessionId = 2,
+  TradingAccountRequest_FieldNumber_Language = 3,
 };
 
 @interface TradingAccountRequest : GPBMessage
@@ -63,6 +64,10 @@ typedef GPB_ENUM(TradingAccountRequest_FieldNumber) {
 @property(nonatomic, readwrite, copy, null_resettable) NSString *userToken;
 /** Test to see if @c userToken has been set. */
 @property(nonatomic, readwrite) BOOL hasUserToken;
+
+@property(nonatomic, readwrite, copy, null_resettable) NSString *language;
+/** Test to see if @c language has been set. */
+@property(nonatomic, readwrite) BOOL hasLanguage;
 
 @end
 

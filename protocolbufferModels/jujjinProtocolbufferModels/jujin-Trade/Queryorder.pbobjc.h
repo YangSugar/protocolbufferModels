@@ -55,6 +55,7 @@ typedef GPB_ENUM(QueryOrderRequest_FieldNumber) {
   QueryOrderRequest_FieldNumber_EndTime = 4,
   QueryOrderRequest_FieldNumber_UserToken = 5,
   QueryOrderRequest_FieldNumber_SessionId = 6,
+  QueryOrderRequest_FieldNumber_Language = 7,
 };
 
 @interface QueryOrderRequest : GPBMessage
@@ -81,6 +82,10 @@ typedef GPB_ENUM(QueryOrderRequest_FieldNumber) {
 @property(nonatomic, readwrite, copy, null_resettable) NSString *sessionId;
 /** Test to see if @c sessionId has been set. */
 @property(nonatomic, readwrite) BOOL hasSessionId;
+
+@property(nonatomic, readwrite, copy, null_resettable) NSString *language;
+/** Test to see if @c language has been set. */
+@property(nonatomic, readwrite) BOOL hasLanguage;
 
 @end
 

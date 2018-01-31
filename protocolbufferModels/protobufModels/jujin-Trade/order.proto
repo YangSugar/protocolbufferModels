@@ -8,7 +8,7 @@ message OrderRequest {
 
    required  string putSymbol = 1; //交易产品编号 llg 伦敦金 lls 伦敦银
 
-   required  int32 cmd = 2;  //交易方向  0买涨 1买跌
+   required  int32 cmd = 2;  //交易方向  0做多 1做空
 
    required  float price = 3; // 建仓价格
 
@@ -29,6 +29,8 @@ message OrderRequest {
    required int64  time=11;
 
    optional string sessionId = 12;
+
+   required string language=13;
 
 
 }
@@ -76,6 +78,8 @@ message CloseRequest {
    required int64  time=6;
 
    optional string sessionId = 7;
+
+   required string language=8;
 }
 
 
@@ -105,6 +109,8 @@ message CancelRequest {
 
    optional string sessionId = 5;
 
+   required string language=6;
+
 }
 
 
@@ -115,7 +121,6 @@ message CancelResponse {
    optional  int32 errCode = 2;
 
    optional  string message = 3;
-
 
    optional string sessionId = 4;
 
@@ -138,6 +143,8 @@ message ModifyRequest {
    required int64  time=6;
 
    optional string sessionId = 7;
+
+   required string language=8;
 }
 
 

@@ -36,7 +36,7 @@ static GPBFileDescriptor *QueryorderRoot_FileDescriptor(void) {
   static GPBFileDescriptor *descriptor = NULL;
   if (!descriptor) {
     GPB_DEBUG_CHECK_RUNTIME_VERSIONS();
-    descriptor = [[GPBFileDescriptor alloc] initWithPackage:@"com.xinhuibao.cloud.app.mars.shortlink.model"
+    descriptor = [[GPBFileDescriptor alloc] initWithPackage:@"com.xinhuibao.cloud.app.mars.model"
                                                      syntax:GPBFileSyntaxProto2];
   }
   return descriptor;
@@ -52,6 +52,7 @@ static GPBFileDescriptor *QueryorderRoot_FileDescriptor(void) {
 @dynamic hasEndTime, endTime;
 @dynamic hasUserToken, userToken;
 @dynamic hasSessionId, sessionId;
+@dynamic hasLanguage, language;
 
 typedef struct QueryOrderRequest__storage_ {
   uint32_t _has_storage_[1];
@@ -61,6 +62,7 @@ typedef struct QueryOrderRequest__storage_ {
   NSString *endTime;
   NSString *userToken;
   NSString *sessionId;
+  NSString *language;
 } QueryOrderRequest__storage_;
 
 // This method is threadsafe because it is initially called
@@ -121,6 +123,15 @@ typedef struct QueryOrderRequest__storage_ {
         .hasIndex = 5,
         .offset = (uint32_t)offsetof(QueryOrderRequest__storage_, sessionId),
         .flags = (GPBFieldFlags)(GPBFieldOptional | GPBFieldTextFormatNameCustom),
+        .dataType = GPBDataTypeString,
+      },
+      {
+        .name = "language",
+        .dataTypeSpecific.className = NULL,
+        .number = QueryOrderRequest_FieldNumber_Language,
+        .hasIndex = 6,
+        .offset = (uint32_t)offsetof(QueryOrderRequest__storage_, language),
+        .flags = GPBFieldRequired,
         .dataType = GPBDataTypeString,
       },
     };

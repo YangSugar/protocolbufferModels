@@ -58,6 +58,7 @@ static GPBFileDescriptor *OrderRoot_FileDescriptor(void) {
 @dynamic hasRand, rand;
 @dynamic hasTime, time;
 @dynamic hasSessionId, sessionId;
+@dynamic hasLanguage, language;
 
 typedef struct OrderRequest__storage_ {
   uint32_t _has_storage_[1];
@@ -72,6 +73,7 @@ typedef struct OrderRequest__storage_ {
   NSString *comment;
   NSString *userToken;
   NSString *sessionId;
+  NSString *language;
   int64_t time;
 } OrderRequest__storage_;
 
@@ -187,6 +189,15 @@ typedef struct OrderRequest__storage_ {
         .hasIndex = 11,
         .offset = (uint32_t)offsetof(OrderRequest__storage_, sessionId),
         .flags = (GPBFieldFlags)(GPBFieldOptional | GPBFieldTextFormatNameCustom),
+        .dataType = GPBDataTypeString,
+      },
+      {
+        .name = "language",
+        .dataTypeSpecific.className = NULL,
+        .number = OrderRequest_FieldNumber_Language,
+        .hasIndex = 12,
+        .offset = (uint32_t)offsetof(OrderRequest__storage_, language),
+        .flags = GPBFieldRequired,
         .dataType = GPBDataTypeString,
       },
     };
@@ -379,6 +390,7 @@ typedef struct OrderResponseData__storage_ {
 @dynamic hasRand, rand;
 @dynamic hasTime, time;
 @dynamic hasSessionId, sessionId;
+@dynamic hasLanguage, language;
 
 typedef struct CloseRequest__storage_ {
   uint32_t _has_storage_[1];
@@ -388,6 +400,7 @@ typedef struct CloseRequest__storage_ {
   NSString *ticket;
   NSString *userToken;
   NSString *sessionId;
+  NSString *language;
   int64_t time;
 } CloseRequest__storage_;
 
@@ -458,6 +471,15 @@ typedef struct CloseRequest__storage_ {
         .hasIndex = 6,
         .offset = (uint32_t)offsetof(CloseRequest__storage_, sessionId),
         .flags = (GPBFieldFlags)(GPBFieldOptional | GPBFieldTextFormatNameCustom),
+        .dataType = GPBDataTypeString,
+      },
+      {
+        .name = "language",
+        .dataTypeSpecific.className = NULL,
+        .number = CloseRequest_FieldNumber_Language,
+        .hasIndex = 7,
+        .offset = (uint32_t)offsetof(CloseRequest__storage_, language),
+        .flags = GPBFieldRequired,
         .dataType = GPBDataTypeString,
       },
     };
@@ -572,6 +594,7 @@ typedef struct CloseResponse__storage_ {
 @dynamic hasRand, rand;
 @dynamic hasTime, time;
 @dynamic hasSessionId, sessionId;
+@dynamic hasLanguage, language;
 
 typedef struct CancelRequest__storage_ {
   uint32_t _has_storage_[1];
@@ -579,6 +602,7 @@ typedef struct CancelRequest__storage_ {
   NSString *ticket;
   NSString *userToken;
   NSString *sessionId;
+  NSString *language;
   int64_t time;
 } CancelRequest__storage_;
 
@@ -631,6 +655,15 @@ typedef struct CancelRequest__storage_ {
         .hasIndex = 4,
         .offset = (uint32_t)offsetof(CancelRequest__storage_, sessionId),
         .flags = (GPBFieldFlags)(GPBFieldOptional | GPBFieldTextFormatNameCustom),
+        .dataType = GPBDataTypeString,
+      },
+      {
+        .name = "language",
+        .dataTypeSpecific.className = NULL,
+        .number = CancelRequest_FieldNumber_Language,
+        .hasIndex = 5,
+        .offset = (uint32_t)offsetof(CancelRequest__storage_, language),
+        .flags = GPBFieldRequired,
         .dataType = GPBDataTypeString,
       },
     };
@@ -747,6 +780,7 @@ typedef struct CancelResponse__storage_ {
 @dynamic hasRand, rand;
 @dynamic hasTime, time;
 @dynamic hasSessionId, sessionId;
+@dynamic hasLanguage, language;
 
 typedef struct ModifyRequest__storage_ {
   uint32_t _has_storage_[1];
@@ -756,6 +790,7 @@ typedef struct ModifyRequest__storage_ {
   NSString *ticket;
   NSString *userToken;
   NSString *sessionId;
+  NSString *language;
   int64_t time;
 } ModifyRequest__storage_;
 
@@ -826,6 +861,15 @@ typedef struct ModifyRequest__storage_ {
         .hasIndex = 6,
         .offset = (uint32_t)offsetof(ModifyRequest__storage_, sessionId),
         .flags = (GPBFieldFlags)(GPBFieldOptional | GPBFieldTextFormatNameCustom),
+        .dataType = GPBDataTypeString,
+      },
+      {
+        .name = "language",
+        .dataTypeSpecific.className = NULL,
+        .number = ModifyRequest_FieldNumber_Language,
+        .hasIndex = 7,
+        .offset = (uint32_t)offsetof(ModifyRequest__storage_, language),
+        .flags = GPBFieldRequired,
         .dataType = GPBDataTypeString,
       },
     };

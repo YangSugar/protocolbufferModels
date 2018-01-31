@@ -61,6 +61,7 @@ typedef GPB_ENUM(OrderRequest_FieldNumber) {
   OrderRequest_FieldNumber_Rand = 10,
   OrderRequest_FieldNumber_Time = 11,
   OrderRequest_FieldNumber_SessionId = 12,
+  OrderRequest_FieldNumber_Language = 13,
 };
 
 @interface OrderRequest : GPBMessage
@@ -70,7 +71,7 @@ typedef GPB_ENUM(OrderRequest_FieldNumber) {
 /** Test to see if @c putSymbol has been set. */
 @property(nonatomic, readwrite) BOOL hasPutSymbol;
 
-/** 交易方向  0买涨 1买跌 */
+/** 交易方向  0做多 1做空 */
 @property(nonatomic, readwrite) int32_t cmd;
 
 @property(nonatomic, readwrite) BOOL hasCmd;
@@ -113,6 +114,10 @@ typedef GPB_ENUM(OrderRequest_FieldNumber) {
 @property(nonatomic, readwrite, copy, null_resettable) NSString *sessionId;
 /** Test to see if @c sessionId has been set. */
 @property(nonatomic, readwrite) BOOL hasSessionId;
+
+@property(nonatomic, readwrite, copy, null_resettable) NSString *language;
+/** Test to see if @c language has been set. */
+@property(nonatomic, readwrite) BOOL hasLanguage;
 
 @end
 
@@ -179,6 +184,7 @@ typedef GPB_ENUM(CloseRequest_FieldNumber) {
   CloseRequest_FieldNumber_Rand = 5,
   CloseRequest_FieldNumber_Time = 6,
   CloseRequest_FieldNumber_SessionId = 7,
+  CloseRequest_FieldNumber_Language = 8,
 };
 
 @interface CloseRequest : GPBMessage
@@ -210,6 +216,10 @@ typedef GPB_ENUM(CloseRequest_FieldNumber) {
 @property(nonatomic, readwrite, copy, null_resettable) NSString *sessionId;
 /** Test to see if @c sessionId has been set. */
 @property(nonatomic, readwrite) BOOL hasSessionId;
+
+@property(nonatomic, readwrite, copy, null_resettable) NSString *language;
+/** Test to see if @c language has been set. */
+@property(nonatomic, readwrite) BOOL hasLanguage;
 
 @end
 
@@ -248,6 +258,7 @@ typedef GPB_ENUM(CancelRequest_FieldNumber) {
   CancelRequest_FieldNumber_Rand = 3,
   CancelRequest_FieldNumber_Time = 4,
   CancelRequest_FieldNumber_SessionId = 5,
+  CancelRequest_FieldNumber_Language = 6,
 };
 
 @interface CancelRequest : GPBMessage
@@ -271,6 +282,10 @@ typedef GPB_ENUM(CancelRequest_FieldNumber) {
 @property(nonatomic, readwrite, copy, null_resettable) NSString *sessionId;
 /** Test to see if @c sessionId has been set. */
 @property(nonatomic, readwrite) BOOL hasSessionId;
+
+@property(nonatomic, readwrite, copy, null_resettable) NSString *language;
+/** Test to see if @c language has been set. */
+@property(nonatomic, readwrite) BOOL hasLanguage;
 
 @end
 
@@ -311,6 +326,7 @@ typedef GPB_ENUM(ModifyRequest_FieldNumber) {
   ModifyRequest_FieldNumber_Rand = 5,
   ModifyRequest_FieldNumber_Time = 6,
   ModifyRequest_FieldNumber_SessionId = 7,
+  ModifyRequest_FieldNumber_Language = 8,
 };
 
 @interface ModifyRequest : GPBMessage
@@ -342,6 +358,10 @@ typedef GPB_ENUM(ModifyRequest_FieldNumber) {
 @property(nonatomic, readwrite, copy, null_resettable) NSString *sessionId;
 /** Test to see if @c sessionId has been set. */
 @property(nonatomic, readwrite) BOOL hasSessionId;
+
+@property(nonatomic, readwrite, copy, null_resettable) NSString *language;
+/** Test to see if @c language has been set. */
+@property(nonatomic, readwrite) BOOL hasLanguage;
 
 @end
 

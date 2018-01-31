@@ -36,7 +36,7 @@ static GPBFileDescriptor *TradingaccountRoot_FileDescriptor(void) {
   static GPBFileDescriptor *descriptor = NULL;
   if (!descriptor) {
     GPB_DEBUG_CHECK_RUNTIME_VERSIONS();
-    descriptor = [[GPBFileDescriptor alloc] initWithPackage:@"com.xinhuibao.cloud.app.mars.shortlink.model"
+    descriptor = [[GPBFileDescriptor alloc] initWithPackage:@"com.xinhuibao.cloud.app.mars.model"
                                                      syntax:GPBFileSyntaxProto2];
   }
   return descriptor;
@@ -48,11 +48,13 @@ static GPBFileDescriptor *TradingaccountRoot_FileDescriptor(void) {
 
 @dynamic hasSessionId, sessionId;
 @dynamic hasUserToken, userToken;
+@dynamic hasLanguage, language;
 
 typedef struct TradingAccountRequest__storage_ {
   uint32_t _has_storage_[1];
   NSString *userToken;
   NSString *sessionId;
+  NSString *language;
 } TradingAccountRequest__storage_;
 
 // This method is threadsafe because it is initially called
@@ -77,6 +79,15 @@ typedef struct TradingAccountRequest__storage_ {
         .hasIndex = 0,
         .offset = (uint32_t)offsetof(TradingAccountRequest__storage_, sessionId),
         .flags = (GPBFieldFlags)(GPBFieldOptional | GPBFieldTextFormatNameCustom),
+        .dataType = GPBDataTypeString,
+      },
+      {
+        .name = "language",
+        .dataTypeSpecific.className = NULL,
+        .number = TradingAccountRequest_FieldNumber_Language,
+        .hasIndex = 2,
+        .offset = (uint32_t)offsetof(TradingAccountRequest__storage_, language),
+        .flags = GPBFieldRequired,
         .dataType = GPBDataTypeString,
       },
     };
