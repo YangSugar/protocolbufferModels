@@ -23,6 +23,8 @@
 		B6A2D0FF1FB5423A00B245D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A2D0FD1FB5423A00B245D0 /* LaunchScreen.storyboard */; };
 		B6A2D1021FB5423A00B245D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A2D1011FB5423A00B245D0 /* main.m */; };
 		B6A2D10C1FB5423B00B245D0 /* protocolbufferModelsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A2D10B1FB5423B00B245D0 /* protocolbufferModelsUITests.m */; };
+		B6C44E572052713A00A2DE4D /* quotation.proto in Resources */ = {isa = PBXBuildFile; fileRef = B6C44E562052713A00A2DE4D /* quotation.proto */; };
+		B6C44E5D2052733300A2DE4D /* Quotation.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C44E5B2052733300A2DE4D /* Quotation.pbobjc.m */; };
 		B6D42CE71FB5A6FA001E2FB5 /* Any.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D42CAA1FB5A6FA001E2FB5 /* Any.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B6D42CE81FB5A6FA001E2FB5 /* Api.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D42CAC1FB5A6FA001E2FB5 /* Api.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B6D42CE91FB5A6FA001E2FB5 /* Duration.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D42CAE1FB5A6FA001E2FB5 /* Duration.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -89,6 +91,9 @@
 		B6A2D1071FB5423B00B245D0 /* protocolbufferModelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = protocolbufferModelsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A2D10B1FB5423B00B245D0 /* protocolbufferModelsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = protocolbufferModelsUITests.m; sourceTree = "<group>"; };
 		B6A2D10D1FB5423B00B245D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6C44E562052713A00A2DE4D /* quotation.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = quotation.proto; sourceTree = "<group>"; };
+		B6C44E5B2052733300A2DE4D /* Quotation.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quotation.pbobjc.m; sourceTree = "<group>"; };
+		B6C44E5C2052733300A2DE4D /* Quotation.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quotation.pbobjc.h; sourceTree = "<group>"; };
 		B6D42CA91FB5A6FA001E2FB5 /* Any.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Any.pbobjc.h; sourceTree = "<group>"; };
 		B6D42CAA1FB5A6FA001E2FB5 /* Any.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Any.pbobjc.m; sourceTree = "<group>"; };
 		B6D42CAB1FB5A6FA001E2FB5 /* Api.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Api.pbobjc.h; sourceTree = "<group>"; };
@@ -193,6 +198,7 @@
 		B65D2CBD1FB96A750078EB86 /* protobufModels */ = {
 			isa = PBXGroup;
 			children = (
+				B6C44E552052713A00A2DE4D /* td-Hq */,
 				B65D2CE11FB981D40078EB86 /* jujin-Hq */,
 				B65D2CDD1FB981D40078EB86 /* jujin-Trade */,
 			);
@@ -272,6 +278,7 @@
 			isa = PBXGroup;
 			children = (
 				B65D2CC91FB971F60078EB86 /* gen-protobuf.sh */,
+				B6C44E592052724D00A2DE4D /* td-ProtocolbufferModels */,
 				B65D2CC61FB96A7B0078EB86 /* jujjinProtocolbufferModels */,
 				B65D2CBD1FB96A750078EB86 /* protobufModels */,
 				B6D42CA81FB5A6FA001E2FB5 /* protobuf */,
@@ -295,6 +302,31 @@
 				B6A2D10D1FB5423B00B245D0 /* Info.plist */,
 			);
 			path = protocolbufferModelsUITests;
+			sourceTree = "<group>";
+		};
+		B6C44E552052713A00A2DE4D /* td-Hq */ = {
+			isa = PBXGroup;
+			children = (
+				B6C44E562052713A00A2DE4D /* quotation.proto */,
+			);
+			path = "td-Hq";
+			sourceTree = "<group>";
+		};
+		B6C44E592052724D00A2DE4D /* td-ProtocolbufferModels */ = {
+			isa = PBXGroup;
+			children = (
+				B6C44E5A2052724D00A2DE4D /* td-Hq */,
+			);
+			path = "td-ProtocolbufferModels";
+			sourceTree = "<group>";
+		};
+		B6C44E5A2052724D00A2DE4D /* td-Hq */ = {
+			isa = PBXGroup;
+			children = (
+				B6C44E5C2052733300A2DE4D /* Quotation.pbobjc.h */,
+				B6C44E5B2052733300A2DE4D /* Quotation.pbobjc.m */,
+			);
+			path = "td-Hq";
 			sourceTree = "<group>";
 		};
 		B6D42CA81FB5A6FA001E2FB5 /* protobuf */ = {
@@ -460,6 +492,7 @@
 				B65D2CE61FB981D40078EB86 /* HqMessagepush.proto in Resources */,
 				B6A2D0FC1FB5423A00B245D0 /* Assets.xcassets in Resources */,
 				B6A2D0FA1FB5423A00B245D0 /* Main.storyboard in Resources */,
+				B6C44E572052713A00A2DE4D /* quotation.proto in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,6 +588,7 @@
 				B6A2D0F71FB5423A00B245D0 /* ViewController.m in Sources */,
 				B65D2CF11FB983D30078EB86 /* Order.pbobjc.m in Sources */,
 				B6A2D1021FB5423A00B245D0 /* main.m in Sources */,
+				B6C44E5D2052733300A2DE4D /* Quotation.pbobjc.m in Sources */,
 				B6D42CF41FB5A6FA001E2FB5 /* GPBRootObject.m in Sources */,
 				B6D42CFB1FB5A6FA001E2FB5 /* Struct.pbobjc.m in Sources */,
 				B6D42CF81FB5A6FA001E2FB5 /* GPBWellKnownTypes.m in Sources */,

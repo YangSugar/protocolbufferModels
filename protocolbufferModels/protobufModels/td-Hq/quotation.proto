@@ -1,0 +1,91 @@
+
+syntax = "proto2";
+
+package com.jujin.cloud.customer.chat.app.model;
+
+
+option java_outer_classname = "Quotation";
+
+
+message QuotationData {
+
+    required string code = 1;
+
+    required string name = 2;
+
+    required float last = 3;
+
+    required float open = 4;
+
+    required float high = 5;
+
+    required float low = 6;
+
+    required float lastclose=7;
+
+    optional float lastsettlement=8;
+
+    optional int64 volume=9;
+
+    required string excode = 10;
+
+    required string exname = 11;
+
+    required int64 quoteTime = 12;
+
+    required float buy = 13;
+    required int32 buyqty = 14;
+
+    required float sell = 15;
+    required int32 sellqty = 16;
+
+    optional float buy1 = 17;
+    optional int32 buy1qty=18;
+
+    optional float sell1 = 19;
+    optional int32 sell1qty=20;
+
+
+    optional float buy2 = 21;
+    optional int32 buy2qty=22;
+
+    optional float sell2 = 23;
+    optional int32 sell2qty= 24;
+
+    optional float buy3 = 25;
+    optional int32 buy3qty=26;
+
+    optional float sell3 = 27;
+    optional int32 sell3qty=28;
+
+
+    optional float buy4 = 29;
+    optional int32 buy4qty=30;
+
+
+    optional float sell4 = 31;
+    optional int32 sell4qty=32;
+
+
+    optional float buy5 = 33;
+    optional int32 buy5qty=34;
+
+    optional float sell5 = 35;
+    optional int32 sell5qty=36;
+
+
+
+    optional int32 currentqty=37;
+    optional int32 holdqty=38;
+
+
+    optional int32 isTD = 39;
+
+    optional int32 decimalCount=40;
+
+    required int32 status = 41;
+
+
+
+
+}
