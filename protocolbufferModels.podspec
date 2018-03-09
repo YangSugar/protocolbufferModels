@@ -22,12 +22,16 @@ Pod::Spec.new do |spec|
     ss.source_files = 'protocolbufferModels/protobufModels/**/*'
   end
 
-  spec.subspec 'td-ProtocolbufferModels' do |ss|
-       ss.subspec 'td-Hq' do |sss|
-        sss.source_files = 'protocolbufferModels/jujjinProtocolbufferModels/td-Hq/*'
-        sss.requires_arc = false; 
+  spec.subspec 'jujjinProtocolbufferModels' do |ss|
+      ss.subspec 'jujin-Hq' do |sss|
+        sss.source_files = 'protocolbufferModels/jujjinProtocolbufferModels/jujin-Hq/*'
+        sss.requires_arc = false;  
       end
 
+      ss.subspec 'jujin-Trade' do |sss|
+        sss.source_files = 'protocolbufferModels/jujjinProtocolbufferModels/jujin-Trade/*'
+        sss.requires_arc = false; 
+      end
   end
 
 
