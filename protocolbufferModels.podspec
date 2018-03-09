@@ -19,19 +19,16 @@ Pod::Spec.new do |spec|
   end
 
   spec.subspec 'protobufModels-proto' do |ss|
-    ss.source_files = 'protocolbufferModels/protobufModels/**/*'
+    ss.source_files = 'protocolbufferModels/protobufModels/td-Hq/*'
   end
 
-  spec.subspec 'jujjinProtocolbufferModels' do |ss|
-      ss.subspec 'jujin-Hq' do |sss|
-        sss.source_files = 'protocolbufferModels/jujjinProtocolbufferModels/jujin-Hq/*'
-        sss.requires_arc = false;  
-      end
-
-      ss.subspec 'jujin-Trade' do |sss|
-        sss.source_files = 'protocolbufferModels/jujjinProtocolbufferModels/jujin-Trade/*'
+  spec.subspec 'td-ProtocolbufferModels' do |ss|
+      ss.subspec 'td-Hq' do |sss|
+        sss.source_files = 'protocolbufferModels/td-ProtocolbufferModels/td-Hq/*'
         sss.requires_arc = false; 
       end
+
+
   end
 
 
