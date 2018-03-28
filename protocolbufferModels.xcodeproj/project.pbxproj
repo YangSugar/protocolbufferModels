@@ -24,7 +24,6 @@
 		B6A2D1021FB5423A00B245D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A2D1011FB5423A00B245D0 /* main.m */; };
 		B6A2D10C1FB5423B00B245D0 /* protocolbufferModelsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A2D10B1FB5423B00B245D0 /* protocolbufferModelsUITests.m */; };
 		B6C44E572052713A00A2DE4D /* quotation.proto in Resources */ = {isa = PBXBuildFile; fileRef = B6C44E562052713A00A2DE4D /* quotation.proto */; };
-		B6C44E5D2052733300A2DE4D /* Quotation.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C44E5B2052733300A2DE4D /* Quotation.pbobjc.m */; };
 		B6D42CE71FB5A6FA001E2FB5 /* Any.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D42CAA1FB5A6FA001E2FB5 /* Any.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B6D42CE81FB5A6FA001E2FB5 /* Api.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D42CAC1FB5A6FA001E2FB5 /* Api.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B6D42CE91FB5A6FA001E2FB5 /* Duration.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D42CAE1FB5A6FA001E2FB5 /* Duration.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -49,6 +48,7 @@
 		B6D42CFC1FB5A6FA001E2FB5 /* Timestamp.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D42CE21FB5A6FA001E2FB5 /* Timestamp.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B6D42CFD1FB5A6FA001E2FB5 /* Type.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D42CE41FB5A6FA001E2FB5 /* Type.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B6D42CFE1FB5A6FA001E2FB5 /* Wrappers.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D42CE61FB5A6FA001E2FB5 /* Wrappers.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B6FACE5D205A4531005465C1 /* Quotation.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FACE5B205A4530005465C1 /* Quotation.pbobjc.m */; };
 		D575826A84458A7AA32FF34D /* libPods-protocolbufferModels.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F74EF8B963FB63B87CAC4B /* libPods-protocolbufferModels.a */; };
 /* End PBXBuildFile section */
 
@@ -92,8 +92,6 @@
 		B6A2D10B1FB5423B00B245D0 /* protocolbufferModelsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = protocolbufferModelsUITests.m; sourceTree = "<group>"; };
 		B6A2D10D1FB5423B00B245D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6C44E562052713A00A2DE4D /* quotation.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = quotation.proto; sourceTree = "<group>"; };
-		B6C44E5B2052733300A2DE4D /* Quotation.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quotation.pbobjc.m; sourceTree = "<group>"; };
-		B6C44E5C2052733300A2DE4D /* Quotation.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quotation.pbobjc.h; sourceTree = "<group>"; };
 		B6D42CA91FB5A6FA001E2FB5 /* Any.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Any.pbobjc.h; sourceTree = "<group>"; };
 		B6D42CAA1FB5A6FA001E2FB5 /* Any.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Any.pbobjc.m; sourceTree = "<group>"; };
 		B6D42CAB1FB5A6FA001E2FB5 /* Api.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Api.pbobjc.h; sourceTree = "<group>"; };
@@ -156,6 +154,8 @@
 		B6D42CE41FB5A6FA001E2FB5 /* Type.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type.pbobjc.m; sourceTree = "<group>"; };
 		B6D42CE51FB5A6FA001E2FB5 /* Wrappers.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wrappers.pbobjc.h; sourceTree = "<group>"; };
 		B6D42CE61FB5A6FA001E2FB5 /* Wrappers.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wrappers.pbobjc.m; sourceTree = "<group>"; };
+		B6FACE5B205A4530005465C1 /* Quotation.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quotation.pbobjc.m; sourceTree = "<group>"; };
+		B6FACE5C205A4531005465C1 /* Quotation.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quotation.pbobjc.h; sourceTree = "<group>"; };
 		E0F74EF8B963FB63B87CAC4B /* libPods-protocolbufferModels.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-protocolbufferModels.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -323,8 +323,8 @@
 		B6C44E5A2052724D00A2DE4D /* td-Hq */ = {
 			isa = PBXGroup;
 			children = (
-				B6C44E5C2052733300A2DE4D /* Quotation.pbobjc.h */,
-				B6C44E5B2052733300A2DE4D /* Quotation.pbobjc.m */,
+				B6FACE5C205A4531005465C1 /* Quotation.pbobjc.h */,
+				B6FACE5B205A4530005465C1 /* Quotation.pbobjc.m */,
 			);
 			path = "td-Hq";
 			sourceTree = "<group>";
@@ -588,7 +588,7 @@
 				B6A2D0F71FB5423A00B245D0 /* ViewController.m in Sources */,
 				B65D2CF11FB983D30078EB86 /* Order.pbobjc.m in Sources */,
 				B6A2D1021FB5423A00B245D0 /* main.m in Sources */,
-				B6C44E5D2052733300A2DE4D /* Quotation.pbobjc.m in Sources */,
+				B6FACE5D205A4531005465C1 /* Quotation.pbobjc.m in Sources */,
 				B6D42CF41FB5A6FA001E2FB5 /* GPBRootObject.m in Sources */,
 				B6D42CFB1FB5A6FA001E2FB5 /* Struct.pbobjc.m in Sources */,
 				B6D42CF81FB5A6FA001E2FB5 /* GPBWellKnownTypes.m in Sources */,
