@@ -33,9 +33,10 @@ Pod::Spec.new do |spec|
       end
 
       ss.subspec 'chat' do |sss|
-        sss.source_files = 'protocolbufferModels/td-ProtocolbufferModels/gj-chatProtocolbufferModels/chat/*'
-
-
+        sss.source_files = 'protocolbufferModels/gj-chatProtocolbufferModels/chat/*'
+        sss.requires_arc = false;
+      end
+      
   end
 
 
