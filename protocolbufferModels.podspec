@@ -18,8 +18,12 @@ Pod::Spec.new do |spec|
     ss.requires_arc = false
   end
 
-  spec.subspec 'protobufModels-proto' do |ss|
+  spec.subspec 'protobufModels-proto-hq' do |ss|
     ss.source_files = 'protocolbufferModels/protobufModels/td-Hq/*'
+  end
+
+  spec.subspec 'protobufModels-proto-chat' do |ss|
+    ss.source_files = 'protocolbufferModels/protobufModels/gj-Chat/*'
   end
 
   spec.subspec 'td-ProtocolbufferModels' do |ss|
@@ -28,8 +32,15 @@ Pod::Spec.new do |spec|
         sss.requires_arc = false; 
       end
 
+      ss.subspec 'chat' do |sss|
+        sss.source_files = 'protocolbufferModels/td-ProtocolbufferModels/gj-chatProtocolbufferModels/chat/*'
+
 
   end
+
+
+
+
 
 
 

@@ -13,9 +13,12 @@
 		B65D2CF01FB983D30078EB86 /* Queryorder.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D2CEB1FB983D30078EB86 /* Queryorder.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B65D2CF11FB983D30078EB86 /* Order.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D2CEC1FB983D30078EB86 /* Order.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B65D2CF21FB983D30078EB86 /* Tradingaccount.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D2CEF1FB983D30078EB86 /* Tradingaccount.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B66E33EF2021AAA300B83B50 /* tradingaccount.proto in Resources */ = {isa = PBXBuildFile; fileRef = B66E33EC2021AAA300B83B50 /* tradingaccount.proto */; };
-		B66E33F02021AAA300B83B50 /* queryorder.proto in Resources */ = {isa = PBXBuildFile; fileRef = B66E33ED2021AAA300B83B50 /* queryorder.proto */; };
-		B66E33F12021AAA300B83B50 /* order.proto in Resources */ = {isa = PBXBuildFile; fileRef = B66E33EE2021AAA300B83B50 /* order.proto */; };
+		B69C06C0206B915F00AB16BA /* register.proto in Resources */ = {isa = PBXBuildFile; fileRef = B69C06BE206B915F00AB16BA /* register.proto */; };
+		B69C06C1206B915F00AB16BA /* message.proto in Resources */ = {isa = PBXBuildFile; fileRef = B69C06BF206B915F00AB16BA /* message.proto */; };
+		B69C06C5206B924D00AB16BA /* immessage.proto in Resources */ = {isa = PBXBuildFile; fileRef = B69C06C4206B924D00AB16BA /* immessage.proto */; };
+		B69C06CC206B926200AB16BA /* Immessage.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B69C06C7206B926200AB16BA /* Immessage.pbobjc.m */; };
+		B69C06CD206B926200AB16BA /* Register.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B69C06CA206B926200AB16BA /* Register.pbobjc.m */; };
+		B69C06CE206B926200AB16BA /* Message.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B69C06CB206B926200AB16BA /* Message.pbobjc.m */; };
 		B6A2D0F41FB5423A00B245D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A2D0F31FB5423A00B245D0 /* AppDelegate.m */; };
 		B6A2D0F71FB5423A00B245D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A2D0F61FB5423A00B245D0 /* ViewController.m */; };
 		B6A2D0FA1FB5423A00B245D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A2D0F81FB5423A00B245D0 /* Main.storyboard */; };
@@ -48,7 +51,6 @@
 		B6D42CFC1FB5A6FA001E2FB5 /* Timestamp.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D42CE21FB5A6FA001E2FB5 /* Timestamp.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B6D42CFD1FB5A6FA001E2FB5 /* Type.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D42CE41FB5A6FA001E2FB5 /* Type.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B6D42CFE1FB5A6FA001E2FB5 /* Wrappers.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D42CE61FB5A6FA001E2FB5 /* Wrappers.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B6FACE5D205A4531005465C1 /* Quotation.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FACE5B205A4530005465C1 /* Quotation.pbobjc.m */; };
 		D575826A84458A7AA32FF34D /* libPods-protocolbufferModels.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F74EF8B963FB63B87CAC4B /* libPods-protocolbufferModels.a */; };
 /* End PBXBuildFile section */
 
@@ -75,9 +77,15 @@
 		B65D2CED1FB983D30078EB86 /* Queryorder.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queryorder.pbobjc.h; sourceTree = "<group>"; };
 		B65D2CEE1FB983D30078EB86 /* Tradingaccount.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tradingaccount.pbobjc.h; sourceTree = "<group>"; };
 		B65D2CEF1FB983D30078EB86 /* Tradingaccount.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tradingaccount.pbobjc.m; sourceTree = "<group>"; };
-		B66E33EC2021AAA300B83B50 /* tradingaccount.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tradingaccount.proto; sourceTree = "<group>"; };
-		B66E33ED2021AAA300B83B50 /* queryorder.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = queryorder.proto; sourceTree = "<group>"; };
-		B66E33EE2021AAA300B83B50 /* order.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = order.proto; sourceTree = "<group>"; };
+		B69C06BE206B915F00AB16BA /* register.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = register.proto; sourceTree = "<group>"; };
+		B69C06BF206B915F00AB16BA /* message.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = message.proto; sourceTree = "<group>"; };
+		B69C06C4206B924D00AB16BA /* immessage.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = immessage.proto; sourceTree = "<group>"; };
+		B69C06C6206B926200AB16BA /* Register.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Register.pbobjc.h; sourceTree = "<group>"; };
+		B69C06C7206B926200AB16BA /* Immessage.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Immessage.pbobjc.m; sourceTree = "<group>"; };
+		B69C06C8206B926200AB16BA /* Immessage.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Immessage.pbobjc.h; sourceTree = "<group>"; };
+		B69C06C9206B926200AB16BA /* Message.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.pbobjc.h; sourceTree = "<group>"; };
+		B69C06CA206B926200AB16BA /* Register.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Register.pbobjc.m; sourceTree = "<group>"; };
+		B69C06CB206B926200AB16BA /* Message.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.pbobjc.m; sourceTree = "<group>"; };
 		B6A2D0EF1FB5423A00B245D0 /* protocolbufferModels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = protocolbufferModels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A2D0F21FB5423A00B245D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6A2D0F31FB5423A00B245D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -154,8 +162,6 @@
 		B6D42CE41FB5A6FA001E2FB5 /* Type.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type.pbobjc.m; sourceTree = "<group>"; };
 		B6D42CE51FB5A6FA001E2FB5 /* Wrappers.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wrappers.pbobjc.h; sourceTree = "<group>"; };
 		B6D42CE61FB5A6FA001E2FB5 /* Wrappers.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wrappers.pbobjc.m; sourceTree = "<group>"; };
-		B6FACE5B205A4530005465C1 /* Quotation.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quotation.pbobjc.m; sourceTree = "<group>"; };
-		B6FACE5C205A4531005465C1 /* Quotation.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quotation.pbobjc.h; sourceTree = "<group>"; };
 		E0F74EF8B963FB63B87CAC4B /* libPods-protocolbufferModels.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-protocolbufferModels.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -198,6 +204,7 @@
 		B65D2CBD1FB96A750078EB86 /* protobufModels */ = {
 			isa = PBXGroup;
 			children = (
+				B69C06A5206B8C3D00AB16BA /* gj-Chat */,
 				B6C44E552052713A00A2DE4D /* td-Hq */,
 				B65D2CE11FB981D40078EB86 /* jujin-Hq */,
 				B65D2CDD1FB981D40078EB86 /* jujin-Trade */,
@@ -239,9 +246,6 @@
 		B65D2CDD1FB981D40078EB86 /* jujin-Trade */ = {
 			isa = PBXGroup;
 			children = (
-				B66E33EE2021AAA300B83B50 /* order.proto */,
-				B66E33ED2021AAA300B83B50 /* queryorder.proto */,
-				B66E33EC2021AAA300B83B50 /* tradingaccount.proto */,
 			);
 			path = "jujin-Trade";
 			sourceTree = "<group>";
@@ -252,6 +256,37 @@
 				B65D2CE21FB981D40078EB86 /* HqMessagepush.proto */,
 			);
 			path = "jujin-Hq";
+			sourceTree = "<group>";
+		};
+		B69C06A5206B8C3D00AB16BA /* gj-Chat */ = {
+			isa = PBXGroup;
+			children = (
+				B69C06C4206B924D00AB16BA /* immessage.proto */,
+				B69C06BF206B915F00AB16BA /* message.proto */,
+				B69C06BE206B915F00AB16BA /* register.proto */,
+			);
+			path = "gj-Chat";
+			sourceTree = "<group>";
+		};
+		B69C06B0206B8F9B00AB16BA /* gj-chatProtocolbufferModels */ = {
+			isa = PBXGroup;
+			children = (
+				B69C06BD206B912400AB16BA /* chat */,
+			);
+			path = "gj-chatProtocolbufferModels";
+			sourceTree = "<group>";
+		};
+		B69C06BD206B912400AB16BA /* chat */ = {
+			isa = PBXGroup;
+			children = (
+				B69C06C8206B926200AB16BA /* Immessage.pbobjc.h */,
+				B69C06C7206B926200AB16BA /* Immessage.pbobjc.m */,
+				B69C06C9206B926200AB16BA /* Message.pbobjc.h */,
+				B69C06CB206B926200AB16BA /* Message.pbobjc.m */,
+				B69C06C6206B926200AB16BA /* Register.pbobjc.h */,
+				B69C06CA206B926200AB16BA /* Register.pbobjc.m */,
+			);
+			path = chat;
 			sourceTree = "<group>";
 		};
 		B6A2D0E61FB5423A00B245D0 = {
@@ -278,6 +313,7 @@
 			isa = PBXGroup;
 			children = (
 				B65D2CC91FB971F60078EB86 /* gen-protobuf.sh */,
+				B69C06B0206B8F9B00AB16BA /* gj-chatProtocolbufferModels */,
 				B6C44E592052724D00A2DE4D /* td-ProtocolbufferModels */,
 				B65D2CC61FB96A7B0078EB86 /* jujjinProtocolbufferModels */,
 				B65D2CBD1FB96A750078EB86 /* protobufModels */,
@@ -323,8 +359,6 @@
 		B6C44E5A2052724D00A2DE4D /* td-Hq */ = {
 			isa = PBXGroup;
 			children = (
-				B6FACE5C205A4531005465C1 /* Quotation.pbobjc.h */,
-				B6FACE5B205A4530005465C1 /* Quotation.pbobjc.m */,
 			);
 			path = "td-Hq";
 			sourceTree = "<group>";
@@ -485,12 +519,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B65D2CCA1FB971F60078EB86 /* gen-protobuf.sh in Resources */,
-				B66E33F12021AAA300B83B50 /* order.proto in Resources */,
 				B6A2D0FF1FB5423A00B245D0 /* LaunchScreen.storyboard in Resources */,
-				B66E33F02021AAA300B83B50 /* queryorder.proto in Resources */,
-				B66E33EF2021AAA300B83B50 /* tradingaccount.proto in Resources */,
 				B65D2CE61FB981D40078EB86 /* HqMessagepush.proto in Resources */,
 				B6A2D0FC1FB5423A00B245D0 /* Assets.xcassets in Resources */,
+				B69C06C1206B915F00AB16BA /* message.proto in Resources */,
+				B69C06C0206B915F00AB16BA /* register.proto in Resources */,
+				B69C06C5206B924D00AB16BA /* immessage.proto in Resources */,
 				B6A2D0FA1FB5423A00B245D0 /* Main.storyboard in Resources */,
 				B6C44E572052713A00A2DE4D /* quotation.proto in Resources */,
 			);
@@ -579,8 +613,11 @@
 				B6D42CFE1FB5A6FA001E2FB5 /* Wrappers.pbobjc.m in Sources */,
 				B6D42CED1FB5A6FA001E2FB5 /* GPBCodedInputStream.m in Sources */,
 				B6D42CE91FB5A6FA001E2FB5 /* Duration.pbobjc.m in Sources */,
+				B69C06CE206B926200AB16BA /* Message.pbobjc.m in Sources */,
+				B69C06CC206B926200AB16BA /* Immessage.pbobjc.m in Sources */,
 				B6D42CEB1FB5A6FA001E2FB5 /* FieldMask.pbobjc.m in Sources */,
 				B6D42CF91FB5A6FA001E2FB5 /* GPBWireFormat.m in Sources */,
+				B69C06CD206B926200AB16BA /* Register.pbobjc.m in Sources */,
 				B6D42CFC1FB5A6FA001E2FB5 /* Timestamp.pbobjc.m in Sources */,
 				B6D42CF31FB5A6FA001E2FB5 /* GPBMessage.m in Sources */,
 				B6D42CE71FB5A6FA001E2FB5 /* Any.pbobjc.m in Sources */,
@@ -588,7 +625,6 @@
 				B6A2D0F71FB5423A00B245D0 /* ViewController.m in Sources */,
 				B65D2CF11FB983D30078EB86 /* Order.pbobjc.m in Sources */,
 				B6A2D1021FB5423A00B245D0 /* main.m in Sources */,
-				B6FACE5D205A4531005465C1 /* Quotation.pbobjc.m in Sources */,
 				B6D42CF41FB5A6FA001E2FB5 /* GPBRootObject.m in Sources */,
 				B6D42CFB1FB5A6FA001E2FB5 /* Struct.pbobjc.m in Sources */,
 				B6D42CF81FB5A6FA001E2FB5 /* GPBWellKnownTypes.m in Sources */,

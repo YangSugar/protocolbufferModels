@@ -1,0 +1,31 @@
+syntax = "proto2";
+
+package com.jujin.cloud.customer.chat.app.model;
+
+
+option java_outer_classname = "IMMessage";
+
+
+message IMMessageRequest {
+
+    required string userId = 1; //用户标识
+
+    required string msgId = 2; //本地消息编号
+
+    required string content = 3; //内容
+
+    required string to = 4; //接收方
+
+    required string from = 5; //发送方
+
+    required int32 contentType = 6; //内容类型
+
+    required string param = 7; //扩展字段
+}
+
+message IMMessageResponse {
+
+    required int32 success = 1;
+
+    required string msgId = 2;
+}

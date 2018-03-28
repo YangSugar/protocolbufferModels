@@ -1,0 +1,72 @@
+syntax = "proto2";
+
+package com.xinhuibao.cloud.app.mars.model;
+
+
+option java_outer_classname = "Message";
+
+
+message MessageResponse{
+
+    required  int32 success = 1;
+
+    optional  int32 errCode = 2;
+
+    optional  int32  type = 3;
+
+    optional  MessageData  value = 4;
+
+    optional string sessionId = 5;
+
+
+}
+
+
+message MessageData{
+
+    optional  string messageId = 1;
+
+    required  string content = 2;
+
+    optional  string param = 3;
+
+    optional  int64  sendTime =4;
+
+    optional  string sourceId = 5;
+
+    optional  string from = 6;
+
+    optional  int32  msgType=7;
+
+    optional  string to = 8;
+
+}
+
+
+message MessageACKResponse{
+
+    required  int32 success = 1;
+
+    optional  int32 errCode = 2;
+
+    optional  string message = 3;
+
+    optional string sessionId = 4;
+
+
+}
+
+
+message MessageACKRequest{
+
+    required  string messageId = 1;
+
+    optional string sessionId = 2;
+
+}
+
+
+
+
+
+
