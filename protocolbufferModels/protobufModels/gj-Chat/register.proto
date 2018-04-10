@@ -17,6 +17,8 @@ message RegisterRequest {
     required  string manufacturer = 5;
 
     optional  string sessionId = 6;
+
+    optional  string customerId = 7;
 }
 
 message RegisterResponse {

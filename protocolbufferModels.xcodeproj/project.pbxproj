@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		B6119FCE1FDFC41D0003B697 /* HqMessagepush.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6119FCD1FDFC41D0003B697 /* HqMessagepush.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B64508D0207C987900106858 /* Immessage.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B64508CB207C987900106858 /* Immessage.pbobjc.m */; };
+		B64508D1207C987900106858 /* Register.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B64508CE207C987900106858 /* Register.pbobjc.m */; };
+		B64508D2207C987900106858 /* Message.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B64508CF207C987900106858 /* Message.pbobjc.m */; };
+		B64508D5207C988400106858 /* Quotation.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B64508D3207C988400106858 /* Quotation.pbobjc.m */; };
 		B65D2CCA1FB971F60078EB86 /* gen-protobuf.sh in Resources */ = {isa = PBXBuildFile; fileRef = B65D2CC91FB971F60078EB86 /* gen-protobuf.sh */; };
 		B65D2CE61FB981D40078EB86 /* HqMessagepush.proto in Resources */ = {isa = PBXBuildFile; fileRef = B65D2CE21FB981D40078EB86 /* HqMessagepush.proto */; };
 		B65D2CF01FB983D30078EB86 /* Queryorder.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D2CEB1FB983D30078EB86 /* Queryorder.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -16,9 +20,6 @@
 		B69C06C0206B915F00AB16BA /* register.proto in Resources */ = {isa = PBXBuildFile; fileRef = B69C06BE206B915F00AB16BA /* register.proto */; };
 		B69C06C1206B915F00AB16BA /* message.proto in Resources */ = {isa = PBXBuildFile; fileRef = B69C06BF206B915F00AB16BA /* message.proto */; };
 		B69C06C5206B924D00AB16BA /* immessage.proto in Resources */ = {isa = PBXBuildFile; fileRef = B69C06C4206B924D00AB16BA /* immessage.proto */; };
-		B69C06CC206B926200AB16BA /* Immessage.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B69C06C7206B926200AB16BA /* Immessage.pbobjc.m */; };
-		B69C06CD206B926200AB16BA /* Register.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B69C06CA206B926200AB16BA /* Register.pbobjc.m */; };
-		B69C06CE206B926200AB16BA /* Message.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B69C06CB206B926200AB16BA /* Message.pbobjc.m */; };
 		B6A2D0F41FB5423A00B245D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A2D0F31FB5423A00B245D0 /* AppDelegate.m */; };
 		B6A2D0F71FB5423A00B245D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A2D0F61FB5423A00B245D0 /* ViewController.m */; };
 		B6A2D0FA1FB5423A00B245D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A2D0F81FB5423A00B245D0 /* Main.storyboard */; };
@@ -69,6 +70,14 @@
 		B3BAB4A6CABD5AD7AAAFA727 /* Pods-protocolbufferModels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-protocolbufferModels.release.xcconfig"; path = "Pods/Target Support Files/Pods-protocolbufferModels/Pods-protocolbufferModels.release.xcconfig"; sourceTree = "<group>"; };
 		B6119FCC1FDFC41C0003B697 /* HqMessagepush.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HqMessagepush.pbobjc.h; sourceTree = "<group>"; };
 		B6119FCD1FDFC41D0003B697 /* HqMessagepush.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HqMessagepush.pbobjc.m; sourceTree = "<group>"; };
+		B64508CA207C987900106858 /* Register.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Register.pbobjc.h; sourceTree = "<group>"; };
+		B64508CB207C987900106858 /* Immessage.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Immessage.pbobjc.m; sourceTree = "<group>"; };
+		B64508CC207C987900106858 /* Immessage.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Immessage.pbobjc.h; sourceTree = "<group>"; };
+		B64508CD207C987900106858 /* Message.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.pbobjc.h; sourceTree = "<group>"; };
+		B64508CE207C987900106858 /* Register.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Register.pbobjc.m; sourceTree = "<group>"; };
+		B64508CF207C987900106858 /* Message.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.pbobjc.m; sourceTree = "<group>"; };
+		B64508D3207C988400106858 /* Quotation.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quotation.pbobjc.m; sourceTree = "<group>"; };
+		B64508D4207C988400106858 /* Quotation.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quotation.pbobjc.h; sourceTree = "<group>"; };
 		B65D2CC91FB971F60078EB86 /* gen-protobuf.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "gen-protobuf.sh"; sourceTree = "<group>"; };
 		B65D2CE21FB981D40078EB86 /* HqMessagepush.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HqMessagepush.proto; sourceTree = "<group>"; };
 		B65D2CEA1FB983D30078EB86 /* Order.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.pbobjc.h; sourceTree = "<group>"; };
@@ -80,12 +89,6 @@
 		B69C06BE206B915F00AB16BA /* register.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = register.proto; sourceTree = "<group>"; };
 		B69C06BF206B915F00AB16BA /* message.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = message.proto; sourceTree = "<group>"; };
 		B69C06C4206B924D00AB16BA /* immessage.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = immessage.proto; sourceTree = "<group>"; };
-		B69C06C6206B926200AB16BA /* Register.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Register.pbobjc.h; sourceTree = "<group>"; };
-		B69C06C7206B926200AB16BA /* Immessage.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Immessage.pbobjc.m; sourceTree = "<group>"; };
-		B69C06C8206B926200AB16BA /* Immessage.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Immessage.pbobjc.h; sourceTree = "<group>"; };
-		B69C06C9206B926200AB16BA /* Message.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.pbobjc.h; sourceTree = "<group>"; };
-		B69C06CA206B926200AB16BA /* Register.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Register.pbobjc.m; sourceTree = "<group>"; };
-		B69C06CB206B926200AB16BA /* Message.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.pbobjc.m; sourceTree = "<group>"; };
 		B6A2D0EF1FB5423A00B245D0 /* protocolbufferModels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = protocolbufferModels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A2D0F21FB5423A00B245D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6A2D0F31FB5423A00B245D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -279,12 +282,12 @@
 		B69C06BD206B912400AB16BA /* chat */ = {
 			isa = PBXGroup;
 			children = (
-				B69C06C8206B926200AB16BA /* Immessage.pbobjc.h */,
-				B69C06C7206B926200AB16BA /* Immessage.pbobjc.m */,
-				B69C06C9206B926200AB16BA /* Message.pbobjc.h */,
-				B69C06CB206B926200AB16BA /* Message.pbobjc.m */,
-				B69C06C6206B926200AB16BA /* Register.pbobjc.h */,
-				B69C06CA206B926200AB16BA /* Register.pbobjc.m */,
+				B64508CC207C987900106858 /* Immessage.pbobjc.h */,
+				B64508CB207C987900106858 /* Immessage.pbobjc.m */,
+				B64508CD207C987900106858 /* Message.pbobjc.h */,
+				B64508CF207C987900106858 /* Message.pbobjc.m */,
+				B64508CA207C987900106858 /* Register.pbobjc.h */,
+				B64508CE207C987900106858 /* Register.pbobjc.m */,
 			);
 			path = chat;
 			sourceTree = "<group>";
@@ -359,6 +362,8 @@
 		B6C44E5A2052724D00A2DE4D /* td-Hq */ = {
 			isa = PBXGroup;
 			children = (
+				B64508D4207C988400106858 /* Quotation.pbobjc.h */,
+				B64508D3207C988400106858 /* Quotation.pbobjc.m */,
 			);
 			path = "td-Hq";
 			sourceTree = "<group>";
@@ -613,11 +618,11 @@
 				B6D42CFE1FB5A6FA001E2FB5 /* Wrappers.pbobjc.m in Sources */,
 				B6D42CED1FB5A6FA001E2FB5 /* GPBCodedInputStream.m in Sources */,
 				B6D42CE91FB5A6FA001E2FB5 /* Duration.pbobjc.m in Sources */,
-				B69C06CE206B926200AB16BA /* Message.pbobjc.m in Sources */,
-				B69C06CC206B926200AB16BA /* Immessage.pbobjc.m in Sources */,
+				B64508D2207C987900106858 /* Message.pbobjc.m in Sources */,
+				B64508D0207C987900106858 /* Immessage.pbobjc.m in Sources */,
 				B6D42CEB1FB5A6FA001E2FB5 /* FieldMask.pbobjc.m in Sources */,
 				B6D42CF91FB5A6FA001E2FB5 /* GPBWireFormat.m in Sources */,
-				B69C06CD206B926200AB16BA /* Register.pbobjc.m in Sources */,
+				B64508D1207C987900106858 /* Register.pbobjc.m in Sources */,
 				B6D42CFC1FB5A6FA001E2FB5 /* Timestamp.pbobjc.m in Sources */,
 				B6D42CF31FB5A6FA001E2FB5 /* GPBMessage.m in Sources */,
 				B6D42CE71FB5A6FA001E2FB5 /* Any.pbobjc.m in Sources */,
@@ -639,6 +644,7 @@
 				B6D42CEA1FB5A6FA001E2FB5 /* Empty.pbobjc.m in Sources */,
 				B6D42CEF1FB5A6FA001E2FB5 /* GPBDescriptor.m in Sources */,
 				B6D42CEE1FB5A6FA001E2FB5 /* GPBCodedOutputStream.m in Sources */,
+				B64508D5207C988400106858 /* Quotation.pbobjc.m in Sources */,
 				B6D42CE81FB5A6FA001E2FB5 /* Api.pbobjc.m in Sources */,
 				B6D42CFA1FB5A6FA001E2FB5 /* SourceContext.pbobjc.m in Sources */,
 			);

@@ -53,6 +53,7 @@ typedef GPB_ENUM(RegisterRequest_FieldNumber) {
   RegisterRequest_FieldNumber_DeviceId = 4,
   RegisterRequest_FieldNumber_Manufacturer = 5,
   RegisterRequest_FieldNumber_SessionId = 6,
+  RegisterRequest_FieldNumber_CustomerId = 7,
 };
 
 @interface RegisterRequest : GPBMessage
@@ -80,6 +81,10 @@ typedef GPB_ENUM(RegisterRequest_FieldNumber) {
 @property(nonatomic, readwrite, copy, null_resettable) NSString *sessionId;
 /** Test to see if @c sessionId has been set. */
 @property(nonatomic, readwrite) BOOL hasSessionId;
+
+@property(nonatomic, readwrite, copy, null_resettable) NSString *customerId;
+/** Test to see if @c customerId has been set. */
+@property(nonatomic, readwrite) BOOL hasCustomerId;
 
 @end
 
