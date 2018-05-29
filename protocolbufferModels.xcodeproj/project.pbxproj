@@ -10,12 +10,12 @@
 		B6119FCE1FDFC41D0003B697 /* HqMessagepush.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6119FCD1FDFC41D0003B697 /* HqMessagepush.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B65D2CCA1FB971F60078EB86 /* gen-protobuf.sh in Resources */ = {isa = PBXBuildFile; fileRef = B65D2CC91FB971F60078EB86 /* gen-protobuf.sh */; };
 		B65D2CE61FB981D40078EB86 /* HqMessagepush.proto in Resources */ = {isa = PBXBuildFile; fileRef = B65D2CE21FB981D40078EB86 /* HqMessagepush.proto */; };
-		B65D2CF01FB983D30078EB86 /* Queryorder.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D2CEB1FB983D30078EB86 /* Queryorder.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B65D2CF11FB983D30078EB86 /* Order.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D2CEC1FB983D30078EB86 /* Order.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B65D2CF21FB983D30078EB86 /* Tradingaccount.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D2CEF1FB983D30078EB86 /* Tradingaccount.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B66E33EF2021AAA300B83B50 /* tradingaccount.proto in Resources */ = {isa = PBXBuildFile; fileRef = B66E33EC2021AAA300B83B50 /* tradingaccount.proto */; };
 		B66E33F02021AAA300B83B50 /* queryorder.proto in Resources */ = {isa = PBXBuildFile; fileRef = B66E33ED2021AAA300B83B50 /* queryorder.proto */; };
 		B66E33F12021AAA300B83B50 /* order.proto in Resources */ = {isa = PBXBuildFile; fileRef = B66E33EE2021AAA300B83B50 /* order.proto */; };
+		B6958EED20BCE7DF00E20A63 /* Queryorder.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6958EE820BCE7DE00E20A63 /* Queryorder.pbobjc.m */; };
+		B6958EEE20BCE7DF00E20A63 /* Order.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6958EE920BCE7DE00E20A63 /* Order.pbobjc.m */; };
+		B6958EEF20BCE7DF00E20A63 /* Tradingaccount.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6958EEC20BCE7DE00E20A63 /* Tradingaccount.pbobjc.m */; };
 		B6A2D0F41FB5423A00B245D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A2D0F31FB5423A00B245D0 /* AppDelegate.m */; };
 		B6A2D0F71FB5423A00B245D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A2D0F61FB5423A00B245D0 /* ViewController.m */; };
 		B6A2D0FA1FB5423A00B245D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A2D0F81FB5423A00B245D0 /* Main.storyboard */; };
@@ -67,15 +67,15 @@
 		B6119FCD1FDFC41D0003B697 /* HqMessagepush.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HqMessagepush.pbobjc.m; sourceTree = "<group>"; };
 		B65D2CC91FB971F60078EB86 /* gen-protobuf.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "gen-protobuf.sh"; sourceTree = "<group>"; };
 		B65D2CE21FB981D40078EB86 /* HqMessagepush.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HqMessagepush.proto; sourceTree = "<group>"; };
-		B65D2CEA1FB983D30078EB86 /* Order.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.pbobjc.h; sourceTree = "<group>"; };
-		B65D2CEB1FB983D30078EB86 /* Queryorder.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Queryorder.pbobjc.m; sourceTree = "<group>"; };
-		B65D2CEC1FB983D30078EB86 /* Order.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.pbobjc.m; sourceTree = "<group>"; };
-		B65D2CED1FB983D30078EB86 /* Queryorder.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queryorder.pbobjc.h; sourceTree = "<group>"; };
-		B65D2CEE1FB983D30078EB86 /* Tradingaccount.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tradingaccount.pbobjc.h; sourceTree = "<group>"; };
-		B65D2CEF1FB983D30078EB86 /* Tradingaccount.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tradingaccount.pbobjc.m; sourceTree = "<group>"; };
 		B66E33EC2021AAA300B83B50 /* tradingaccount.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tradingaccount.proto; sourceTree = "<group>"; };
 		B66E33ED2021AAA300B83B50 /* queryorder.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = queryorder.proto; sourceTree = "<group>"; };
 		B66E33EE2021AAA300B83B50 /* order.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = order.proto; sourceTree = "<group>"; };
+		B6958EE720BCE7DE00E20A63 /* Order.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.pbobjc.h; sourceTree = "<group>"; };
+		B6958EE820BCE7DE00E20A63 /* Queryorder.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Queryorder.pbobjc.m; sourceTree = "<group>"; };
+		B6958EE920BCE7DE00E20A63 /* Order.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.pbobjc.m; sourceTree = "<group>"; };
+		B6958EEA20BCE7DE00E20A63 /* Queryorder.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queryorder.pbobjc.h; sourceTree = "<group>"; };
+		B6958EEB20BCE7DE00E20A63 /* Tradingaccount.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tradingaccount.pbobjc.h; sourceTree = "<group>"; };
+		B6958EEC20BCE7DE00E20A63 /* Tradingaccount.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tradingaccount.pbobjc.m; sourceTree = "<group>"; };
 		B6A2D0EF1FB5423A00B245D0 /* protocolbufferModels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = protocolbufferModels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A2D0F21FB5423A00B245D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6A2D0F31FB5423A00B245D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -211,12 +211,12 @@
 		B65D2CCC1FB9777E0078EB86 /* jujin-Trade */ = {
 			isa = PBXGroup;
 			children = (
-				B65D2CEA1FB983D30078EB86 /* Order.pbobjc.h */,
-				B65D2CEC1FB983D30078EB86 /* Order.pbobjc.m */,
-				B65D2CED1FB983D30078EB86 /* Queryorder.pbobjc.h */,
-				B65D2CEB1FB983D30078EB86 /* Queryorder.pbobjc.m */,
-				B65D2CEE1FB983D30078EB86 /* Tradingaccount.pbobjc.h */,
-				B65D2CEF1FB983D30078EB86 /* Tradingaccount.pbobjc.m */,
+				B6958EE720BCE7DE00E20A63 /* Order.pbobjc.h */,
+				B6958EE920BCE7DE00E20A63 /* Order.pbobjc.m */,
+				B6958EEA20BCE7DE00E20A63 /* Queryorder.pbobjc.h */,
+				B6958EE820BCE7DE00E20A63 /* Queryorder.pbobjc.m */,
+				B6958EEB20BCE7DE00E20A63 /* Tradingaccount.pbobjc.h */,
+				B6958EEC20BCE7DE00E20A63 /* Tradingaccount.pbobjc.m */,
 			);
 			path = "jujin-Trade";
 			sourceTree = "<group>";
@@ -541,7 +541,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6D42CF71FB5A6FA001E2FB5 /* GPBUtilities.m in Sources */,
-				B65D2CF21FB983D30078EB86 /* Tradingaccount.pbobjc.m in Sources */,
+				B6958EEF20BCE7DF00E20A63 /* Tradingaccount.pbobjc.m in Sources */,
 				B6D42CF51FB5A6FA001E2FB5 /* GPBUnknownField.m in Sources */,
 				B6D42CFE1FB5A6FA001E2FB5 /* Wrappers.pbobjc.m in Sources */,
 				B6D42CED1FB5A6FA001E2FB5 /* GPBCodedInputStream.m in Sources */,
@@ -553,8 +553,8 @@
 				B6D42CE71FB5A6FA001E2FB5 /* Any.pbobjc.m in Sources */,
 				B6D42CF21FB5A6FA001E2FB5 /* GPBExtensionRegistry.m in Sources */,
 				B6A2D0F71FB5423A00B245D0 /* ViewController.m in Sources */,
-				B65D2CF11FB983D30078EB86 /* Order.pbobjc.m in Sources */,
 				B6A2D1021FB5423A00B245D0 /* main.m in Sources */,
+				B6958EEE20BCE7DF00E20A63 /* Order.pbobjc.m in Sources */,
 				B6D42CF41FB5A6FA001E2FB5 /* GPBRootObject.m in Sources */,
 				B6D42CFB1FB5A6FA001E2FB5 /* Struct.pbobjc.m in Sources */,
 				B6D42CF81FB5A6FA001E2FB5 /* GPBWellKnownTypes.m in Sources */,
@@ -563,8 +563,8 @@
 				B6D42CF61FB5A6FA001E2FB5 /* GPBUnknownFieldSet.m in Sources */,
 				B6A2D0F41FB5423A00B245D0 /* AppDelegate.m in Sources */,
 				B6D42CEC1FB5A6FA001E2FB5 /* GPBArray.m in Sources */,
-				B65D2CF01FB983D30078EB86 /* Queryorder.pbobjc.m in Sources */,
 				B6119FCE1FDFC41D0003B697 /* HqMessagepush.pbobjc.m in Sources */,
+				B6958EED20BCE7DF00E20A63 /* Queryorder.pbobjc.m in Sources */,
 				B6D42CF11FB5A6FA001E2FB5 /* GPBExtensionInternals.m in Sources */,
 				B6D42CEA1FB5A6FA001E2FB5 /* Empty.pbobjc.m in Sources */,
 				B6D42CEF1FB5A6FA001E2FB5 /* GPBDescriptor.m in Sources */,

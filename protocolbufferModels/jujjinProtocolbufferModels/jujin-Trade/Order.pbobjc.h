@@ -185,6 +185,7 @@ typedef GPB_ENUM(CloseRequest_FieldNumber) {
   CloseRequest_FieldNumber_Time = 6,
   CloseRequest_FieldNumber_SessionId = 7,
   CloseRequest_FieldNumber_Language = 8,
+  CloseRequest_FieldNumber_HoldVolume = 9,
 };
 
 @interface CloseRequest : GPBMessage
@@ -221,6 +222,10 @@ typedef GPB_ENUM(CloseRequest_FieldNumber) {
 /** Test to see if @c language has been set. */
 @property(nonatomic, readwrite) BOOL hasLanguage;
 
+/** 手数 */
+@property(nonatomic, readwrite) float holdVolume;
+
+@property(nonatomic, readwrite) BOOL hasHoldVolume;
 @end
 
 #pragma mark - CloseResponse

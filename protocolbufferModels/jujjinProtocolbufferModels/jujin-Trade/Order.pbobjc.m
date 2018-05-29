@@ -391,12 +391,14 @@ typedef struct OrderResponseData__storage_ {
 @dynamic hasTime, time;
 @dynamic hasSessionId, sessionId;
 @dynamic hasLanguage, language;
+@dynamic hasHoldVolume, holdVolume;
 
 typedef struct CloseRequest__storage_ {
   uint32_t _has_storage_[1];
   float price;
   float volume;
   int32_t rand;
+  float holdVolume;
   NSString *ticket;
   NSString *userToken;
   NSString *sessionId;
@@ -482,6 +484,15 @@ typedef struct CloseRequest__storage_ {
         .flags = GPBFieldRequired,
         .dataType = GPBDataTypeString,
       },
+      {
+        .name = "holdVolume",
+        .dataTypeSpecific.className = NULL,
+        .number = CloseRequest_FieldNumber_HoldVolume,
+        .hasIndex = 8,
+        .offset = (uint32_t)offsetof(CloseRequest__storage_, holdVolume),
+        .flags = (GPBFieldFlags)(GPBFieldOptional | GPBFieldTextFormatNameCustom),
+        .dataType = GPBDataTypeFloat,
+      },
     };
     GPBDescriptor *localDescriptor =
         [GPBDescriptor allocDescriptorForClass:[CloseRequest class]
@@ -493,7 +504,7 @@ typedef struct CloseRequest__storage_ {
                                          flags:GPBDescriptorInitializationFlag_None];
 #if !GPBOBJC_SKIP_MESSAGE_TEXTFORMAT_EXTRAS
     static const char *extraTextFormatInfo =
-        "\002\004\t\000\007\t\000";
+        "\003\004\t\000\007\t\000\t\n\000";
     [localDescriptor setupExtraTextInfo:extraTextFormatInfo];
 #endif  // !GPBOBJC_SKIP_MESSAGE_TEXTFORMAT_EXTRAS
     NSAssert(descriptor == nil, @"Startup recursed!");

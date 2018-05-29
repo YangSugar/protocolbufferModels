@@ -80,6 +80,8 @@ message CloseRequest {
    optional string sessionId = 7;
 
    required string language=8;
+
+   optional float holdVolume=9; //手数
 }
 
 
