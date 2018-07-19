@@ -145,7 +145,7 @@ typedef struct QuotationData__storage_ {
         .number = QuotationData_FieldNumber_Code,
         .hasIndex = 0,
         .offset = (uint32_t)offsetof(QuotationData__storage_, code),
-        .flags = GPBFieldRequired,
+        .flags = GPBFieldOptional,
         .dataType = GPBDataTypeString,
       },
       {
@@ -154,7 +154,7 @@ typedef struct QuotationData__storage_ {
         .number = QuotationData_FieldNumber_Name,
         .hasIndex = 1,
         .offset = (uint32_t)offsetof(QuotationData__storage_, name),
-        .flags = GPBFieldRequired,
+        .flags = GPBFieldOptional,
         .dataType = GPBDataTypeString,
       },
       {
@@ -163,7 +163,7 @@ typedef struct QuotationData__storage_ {
         .number = QuotationData_FieldNumber_Last,
         .hasIndex = 2,
         .offset = (uint32_t)offsetof(QuotationData__storage_, last),
-        .flags = GPBFieldRequired,
+        .flags = GPBFieldOptional,
         .dataType = GPBDataTypeFloat,
       },
       {
@@ -172,7 +172,7 @@ typedef struct QuotationData__storage_ {
         .number = QuotationData_FieldNumber_Open,
         .hasIndex = 3,
         .offset = (uint32_t)offsetof(QuotationData__storage_, open),
-        .flags = GPBFieldRequired,
+        .flags = GPBFieldOptional,
         .dataType = GPBDataTypeFloat,
       },
       {
@@ -181,7 +181,7 @@ typedef struct QuotationData__storage_ {
         .number = QuotationData_FieldNumber_High,
         .hasIndex = 4,
         .offset = (uint32_t)offsetof(QuotationData__storage_, high),
-        .flags = GPBFieldRequired,
+        .flags = GPBFieldOptional,
         .dataType = GPBDataTypeFloat,
       },
       {
@@ -190,7 +190,7 @@ typedef struct QuotationData__storage_ {
         .number = QuotationData_FieldNumber_Low,
         .hasIndex = 5,
         .offset = (uint32_t)offsetof(QuotationData__storage_, low),
-        .flags = GPBFieldRequired,
+        .flags = GPBFieldOptional,
         .dataType = GPBDataTypeFloat,
       },
       {
@@ -199,7 +199,7 @@ typedef struct QuotationData__storage_ {
         .number = QuotationData_FieldNumber_Lastclose,
         .hasIndex = 6,
         .offset = (uint32_t)offsetof(QuotationData__storage_, lastclose),
-        .flags = GPBFieldRequired,
+        .flags = GPBFieldOptional,
         .dataType = GPBDataTypeFloat,
       },
       {
@@ -226,7 +226,7 @@ typedef struct QuotationData__storage_ {
         .number = QuotationData_FieldNumber_Excode,
         .hasIndex = 9,
         .offset = (uint32_t)offsetof(QuotationData__storage_, excode),
-        .flags = GPBFieldRequired,
+        .flags = GPBFieldOptional,
         .dataType = GPBDataTypeString,
       },
       {
@@ -235,7 +235,7 @@ typedef struct QuotationData__storage_ {
         .number = QuotationData_FieldNumber_Exname,
         .hasIndex = 10,
         .offset = (uint32_t)offsetof(QuotationData__storage_, exname),
-        .flags = GPBFieldRequired,
+        .flags = GPBFieldOptional,
         .dataType = GPBDataTypeString,
       },
       {
@@ -244,7 +244,7 @@ typedef struct QuotationData__storage_ {
         .number = QuotationData_FieldNumber_QuoteTime,
         .hasIndex = 11,
         .offset = (uint32_t)offsetof(QuotationData__storage_, quoteTime),
-        .flags = (GPBFieldFlags)(GPBFieldRequired | GPBFieldTextFormatNameCustom),
+        .flags = (GPBFieldFlags)(GPBFieldOptional | GPBFieldTextFormatNameCustom),
         .dataType = GPBDataTypeInt64,
       },
       {
@@ -253,7 +253,7 @@ typedef struct QuotationData__storage_ {
         .number = QuotationData_FieldNumber_Buy,
         .hasIndex = 12,
         .offset = (uint32_t)offsetof(QuotationData__storage_, buy),
-        .flags = GPBFieldRequired,
+        .flags = GPBFieldOptional,
         .dataType = GPBDataTypeFloat,
       },
       {
@@ -262,7 +262,7 @@ typedef struct QuotationData__storage_ {
         .number = QuotationData_FieldNumber_Buyqty,
         .hasIndex = 13,
         .offset = (uint32_t)offsetof(QuotationData__storage_, buyqty),
-        .flags = GPBFieldRequired,
+        .flags = GPBFieldOptional,
         .dataType = GPBDataTypeInt32,
       },
       {
@@ -271,7 +271,7 @@ typedef struct QuotationData__storage_ {
         .number = QuotationData_FieldNumber_Sell,
         .hasIndex = 14,
         .offset = (uint32_t)offsetof(QuotationData__storage_, sell),
-        .flags = GPBFieldRequired,
+        .flags = GPBFieldOptional,
         .dataType = GPBDataTypeFloat,
       },
       {
@@ -280,7 +280,7 @@ typedef struct QuotationData__storage_ {
         .number = QuotationData_FieldNumber_Sellqty,
         .hasIndex = 15,
         .offset = (uint32_t)offsetof(QuotationData__storage_, sellqty),
-        .flags = GPBFieldRequired,
+        .flags = GPBFieldOptional,
         .dataType = GPBDataTypeInt32,
       },
       {
@@ -505,7 +505,7 @@ typedef struct QuotationData__storage_ {
         .number = QuotationData_FieldNumber_Status,
         .hasIndex = 40,
         .offset = (uint32_t)offsetof(QuotationData__storage_, status),
-        .flags = GPBFieldRequired,
+        .flags = GPBFieldOptional,
         .dataType = GPBDataTypeInt32,
       },
     };

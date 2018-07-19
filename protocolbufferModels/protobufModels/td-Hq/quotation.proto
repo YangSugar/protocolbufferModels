@@ -9,35 +9,35 @@ option java_outer_classname = "Quotation";
 
 message QuotationData {
 
-    required string code = 1;
+    optional string code = 1;
 
-    required string name = 2;
+    optional string name = 2;
 
-    required float last = 3;
+    optional float last = 3;
 
-    required float open = 4;
+    optional float open = 4;
 
-    required float high = 5;
+    optional float high = 5;
 
-    required float low = 6;
+    optional float low = 6;
 
-    required float lastclose=7;
+    optional float lastclose=7;
 
     optional float lastsettlement=8;
 
     optional int64 volume=9;
 
-    required string excode = 10;
+    optional string excode = 10;
 
-    required string exname = 11;
+    optional string exname = 11;
 
-    required int64 quoteTime = 12;
+    optional int64 quoteTime = 12;
 
-    required float buy = 13;
-    required int32 buyqty = 14;
+    optional float buy = 13;
+    optional int32 buyqty = 14;
 
-    required float sell = 15;
-    required int32 sellqty = 16;
+    optional float sell = 15;
+    optional int32 sellqty = 16;
 
     optional float buy1 = 17;
     optional int32 buy1qty=18;
@@ -83,7 +83,7 @@ message QuotationData {
 
     optional int32 decimalCount=40;
 
-    required int32 status = 41;
+    optional int32 status = 41;
 
 
 

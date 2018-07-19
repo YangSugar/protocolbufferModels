@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		B6119FCE1FDFC41D0003B697 /* HqMessagepush.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6119FCD1FDFC41D0003B697 /* HqMessagepush.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B64508D0207C987900106858 /* Immessage.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B64508CB207C987900106858 /* Immessage.pbobjc.m */; };
-		B64508D1207C987900106858 /* Register.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B64508CE207C987900106858 /* Register.pbobjc.m */; };
-		B64508D2207C987900106858 /* Message.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B64508CF207C987900106858 /* Message.pbobjc.m */; };
-		B64508D5207C988400106858 /* Quotation.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B64508D3207C988400106858 /* Quotation.pbobjc.m */; };
+		B618C13F21006FE300ED81DE /* Quotation.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B618C13D21006FE200ED81DE /* Quotation.pbobjc.m */; };
+		B64508D0207C987900106858 /* Immessage.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B64508CB207C987900106858 /* Immessage.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B64508D1207C987900106858 /* Register.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B64508CE207C987900106858 /* Register.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B64508D2207C987900106858 /* Message.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B64508CF207C987900106858 /* Message.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B65D2CCA1FB971F60078EB86 /* gen-protobuf.sh in Resources */ = {isa = PBXBuildFile; fileRef = B65D2CC91FB971F60078EB86 /* gen-protobuf.sh */; };
 		B65D2CE61FB981D40078EB86 /* HqMessagepush.proto in Resources */ = {isa = PBXBuildFile; fileRef = B65D2CE21FB981D40078EB86 /* HqMessagepush.proto */; };
 		B65D2CF01FB983D30078EB86 /* Queryorder.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B65D2CEB1FB983D30078EB86 /* Queryorder.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -70,14 +70,14 @@
 		B3BAB4A6CABD5AD7AAAFA727 /* Pods-protocolbufferModels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-protocolbufferModels.release.xcconfig"; path = "Pods/Target Support Files/Pods-protocolbufferModels/Pods-protocolbufferModels.release.xcconfig"; sourceTree = "<group>"; };
 		B6119FCC1FDFC41C0003B697 /* HqMessagepush.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HqMessagepush.pbobjc.h; sourceTree = "<group>"; };
 		B6119FCD1FDFC41D0003B697 /* HqMessagepush.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HqMessagepush.pbobjc.m; sourceTree = "<group>"; };
+		B618C13D21006FE200ED81DE /* Quotation.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quotation.pbobjc.m; sourceTree = "<group>"; };
+		B618C13E21006FE300ED81DE /* Quotation.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quotation.pbobjc.h; sourceTree = "<group>"; };
 		B64508CA207C987900106858 /* Register.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Register.pbobjc.h; sourceTree = "<group>"; };
 		B64508CB207C987900106858 /* Immessage.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Immessage.pbobjc.m; sourceTree = "<group>"; };
 		B64508CC207C987900106858 /* Immessage.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Immessage.pbobjc.h; sourceTree = "<group>"; };
 		B64508CD207C987900106858 /* Message.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.pbobjc.h; sourceTree = "<group>"; };
 		B64508CE207C987900106858 /* Register.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Register.pbobjc.m; sourceTree = "<group>"; };
 		B64508CF207C987900106858 /* Message.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.pbobjc.m; sourceTree = "<group>"; };
-		B64508D3207C988400106858 /* Quotation.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quotation.pbobjc.m; sourceTree = "<group>"; };
-		B64508D4207C988400106858 /* Quotation.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quotation.pbobjc.h; sourceTree = "<group>"; };
 		B65D2CC91FB971F60078EB86 /* gen-protobuf.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "gen-protobuf.sh"; sourceTree = "<group>"; };
 		B65D2CE21FB981D40078EB86 /* HqMessagepush.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HqMessagepush.proto; sourceTree = "<group>"; };
 		B65D2CEA1FB983D30078EB86 /* Order.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.pbobjc.h; sourceTree = "<group>"; };
@@ -362,8 +362,8 @@
 		B6C44E5A2052724D00A2DE4D /* td-Hq */ = {
 			isa = PBXGroup;
 			children = (
-				B64508D4207C988400106858 /* Quotation.pbobjc.h */,
-				B64508D3207C988400106858 /* Quotation.pbobjc.m */,
+				B618C13E21006FE300ED81DE /* Quotation.pbobjc.h */,
+				B618C13D21006FE200ED81DE /* Quotation.pbobjc.m */,
 			);
 			path = "td-Hq";
 			sourceTree = "<group>";
@@ -644,7 +644,7 @@
 				B6D42CEA1FB5A6FA001E2FB5 /* Empty.pbobjc.m in Sources */,
 				B6D42CEF1FB5A6FA001E2FB5 /* GPBDescriptor.m in Sources */,
 				B6D42CEE1FB5A6FA001E2FB5 /* GPBCodedOutputStream.m in Sources */,
-				B64508D5207C988400106858 /* Quotation.pbobjc.m in Sources */,
+				B618C13F21006FE300ED81DE /* Quotation.pbobjc.m in Sources */,
 				B6D42CE81FB5A6FA001E2FB5 /* Api.pbobjc.m in Sources */,
 				B6D42CFA1FB5A6FA001E2FB5 /* SourceContext.pbobjc.m in Sources */,
 			);
