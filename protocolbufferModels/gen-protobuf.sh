@@ -18,6 +18,13 @@ done
 
 
 
+for file in ${SRCROOT}/protocolbufferModels/protobufModels/mitrade/*
+do
+echo $file is file path \! ;
+protoc --plugin=/usr/local/bin/protoc-gen-objc $file --objc_out=${SRCROOT}/protocolbufferModels/jujjinProtocolbufferModels/mitrade/ --proto_path=${SRCROOT}/protocolbufferModels/protobufModels/mitrade/
+done
+
+
  
 
 

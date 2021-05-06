@@ -1,0 +1,11 @@
+syntax = "proto3";
+package com.mitrade.pbs;
+
+//低频推送
+message QuotationReminderProto{
+    string id = 1;                //"dealt_116166656417220001" 24B 鉴于低频推送。不再拆分字段
+    string symbol = 2;             //2B 参见SymbolEnum
+    bool type = 3;                //1B 类型 true 是买价，false 是卖价
+    bool trigger = 4;             //1B true涨过 false跌过
+    double value = 5;             //8B 价钱 1731.51
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+package com.mitrade.pbs;
+
+message OrderStatusProto{
+    string symbol = 1;         //品种类型
+    string orderId = 2;        //订单号
+    string type = 3;           //类型 CANCEL(取消)  CLOSE(平仓) PARTIAL_CLOSE(部分平仓) CREATE(建仓)
+    string status = 4;         //参考 CLOSED, PENDING, EXECUTED, CANCELLED
+    double quantity = 5;       //交易手数
+    double price = 6;          //成交价
+    int64 orderTime = 7;        //下单时间
+    bool order_direction = 8; //false:BUY, true:SELL 和交易系统保持一致
+    double stopLoss = 9;      //止损价
+    double takeProfit = 10;   //止盈价
+    double trailingStops = 11; //追踪止损价钱
+}

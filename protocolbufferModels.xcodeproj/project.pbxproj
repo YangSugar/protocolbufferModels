@@ -16,6 +16,20 @@
 		B66E33EF2021AAA300B83B50 /* tradingaccount.proto in Resources */ = {isa = PBXBuildFile; fileRef = B66E33EC2021AAA300B83B50 /* tradingaccount.proto */; };
 		B66E33F02021AAA300B83B50 /* queryorder.proto in Resources */ = {isa = PBXBuildFile; fileRef = B66E33ED2021AAA300B83B50 /* queryorder.proto */; };
 		B66E33F12021AAA300B83B50 /* order.proto in Resources */ = {isa = PBXBuildFile; fileRef = B66E33EE2021AAA300B83B50 /* order.proto */; };
+		B6A24A102643998900B779FA /* notify_info.proto in Sources */ = {isa = PBXBuildFile; fileRef = B6A24A092643998900B779FA /* notify_info.proto */; };
+		B6A24A112643998900B779FA /* balance.proto in Sources */ = {isa = PBXBuildFile; fileRef = B6A24A0A2643998900B779FA /* balance.proto */; };
+		B6A24A122643998900B779FA /* trade_period_status.proto in Sources */ = {isa = PBXBuildFile; fileRef = B6A24A0B2643998900B779FA /* trade_period_status.proto */; };
+		B6A24A132643998900B779FA /* order_status.proto in Sources */ = {isa = PBXBuildFile; fileRef = B6A24A0C2643998900B779FA /* order_status.proto */; };
+		B6A24A142643998900B779FA /* quotation.proto in Sources */ = {isa = PBXBuildFile; fileRef = B6A24A0D2643998900B779FA /* quotation.proto */; };
+		B6A24A152643998900B779FA /* response.proto in Sources */ = {isa = PBXBuildFile; fileRef = B6A24A0E2643998900B779FA /* response.proto */; };
+		B6A24A162643998900B779FA /* quotation_reminder.proto in Sources */ = {isa = PBXBuildFile; fileRef = B6A24A0F2643998900B779FA /* quotation_reminder.proto */; };
+		B6A24A27264399D200B779FA /* QuotationReminder.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A24A1A264399D200B779FA /* QuotationReminder.pbobjc.m */; };
+		B6A24A28264399D300B779FA /* Quotation.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A24A1D264399D200B779FA /* Quotation.pbobjc.m */; };
+		B6A24A29264399D300B779FA /* Balance.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A24A1E264399D200B779FA /* Balance.pbobjc.m */; };
+		B6A24A2A264399D300B779FA /* NotifyInfo.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A24A20264399D200B779FA /* NotifyInfo.pbobjc.m */; };
+		B6A24A2B264399D300B779FA /* Response.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A24A22264399D200B779FA /* Response.pbobjc.m */; };
+		B6A24A2C264399D300B779FA /* OrderStatus.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A24A23264399D200B779FA /* OrderStatus.pbobjc.m */; };
+		B6A24A2D264399D300B779FA /* TradePeriodStatus.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A24A26264399D200B779FA /* TradePeriodStatus.pbobjc.m */; };
 		B6A2D0F41FB5423A00B245D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A2D0F31FB5423A00B245D0 /* AppDelegate.m */; };
 		B6A2D0F71FB5423A00B245D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A2D0F61FB5423A00B245D0 /* ViewController.m */; };
 		B6A2D0FA1FB5423A00B245D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A2D0F81FB5423A00B245D0 /* Main.storyboard */; };
@@ -76,6 +90,27 @@
 		B66E33EC2021AAA300B83B50 /* tradingaccount.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tradingaccount.proto; sourceTree = "<group>"; };
 		B66E33ED2021AAA300B83B50 /* queryorder.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = queryorder.proto; sourceTree = "<group>"; };
 		B66E33EE2021AAA300B83B50 /* order.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = order.proto; sourceTree = "<group>"; };
+		B6A24A092643998900B779FA /* notify_info.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.protobuf; path = notify_info.proto; sourceTree = "<group>"; };
+		B6A24A0A2643998900B779FA /* balance.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.protobuf; path = balance.proto; sourceTree = "<group>"; };
+		B6A24A0B2643998900B779FA /* trade_period_status.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.protobuf; path = trade_period_status.proto; sourceTree = "<group>"; };
+		B6A24A0C2643998900B779FA /* order_status.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.protobuf; path = order_status.proto; sourceTree = "<group>"; };
+		B6A24A0D2643998900B779FA /* quotation.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.protobuf; path = quotation.proto; sourceTree = "<group>"; };
+		B6A24A0E2643998900B779FA /* response.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.protobuf; path = response.proto; sourceTree = "<group>"; };
+		B6A24A0F2643998900B779FA /* quotation_reminder.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.protobuf; path = quotation_reminder.proto; sourceTree = "<group>"; };
+		B6A24A19264399D200B779FA /* QuotationReminder.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuotationReminder.pbobjc.h; sourceTree = "<group>"; };
+		B6A24A1A264399D200B779FA /* QuotationReminder.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuotationReminder.pbobjc.m; sourceTree = "<group>"; };
+		B6A24A1B264399D200B779FA /* NotifyInfo.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotifyInfo.pbobjc.h; sourceTree = "<group>"; };
+		B6A24A1C264399D200B779FA /* Balance.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Balance.pbobjc.h; sourceTree = "<group>"; };
+		B6A24A1D264399D200B779FA /* Quotation.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quotation.pbobjc.m; sourceTree = "<group>"; };
+		B6A24A1E264399D200B779FA /* Balance.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Balance.pbobjc.m; sourceTree = "<group>"; };
+		B6A24A1F264399D200B779FA /* OrderStatus.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderStatus.pbobjc.h; sourceTree = "<group>"; };
+		B6A24A20264399D200B779FA /* NotifyInfo.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotifyInfo.pbobjc.m; sourceTree = "<group>"; };
+		B6A24A21264399D200B779FA /* Quotation.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quotation.pbobjc.h; sourceTree = "<group>"; };
+		B6A24A22264399D200B779FA /* Response.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Response.pbobjc.m; sourceTree = "<group>"; };
+		B6A24A23264399D200B779FA /* OrderStatus.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderStatus.pbobjc.m; sourceTree = "<group>"; };
+		B6A24A24264399D200B779FA /* Response.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Response.pbobjc.h; sourceTree = "<group>"; };
+		B6A24A25264399D200B779FA /* TradePeriodStatus.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradePeriodStatus.pbobjc.h; sourceTree = "<group>"; };
+		B6A24A26264399D200B779FA /* TradePeriodStatus.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradePeriodStatus.pbobjc.m; sourceTree = "<group>"; };
 		B6A2D0EF1FB5423A00B245D0 /* protocolbufferModels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = protocolbufferModels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A2D0F21FB5423A00B245D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6A2D0F31FB5423A00B245D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -193,6 +228,7 @@
 		B65D2CBD1FB96A750078EB86 /* protobufModels */ = {
 			isa = PBXGroup;
 			children = (
+				B6A24A07264398B500B779FA /* mitrade */,
 				B65D2CE11FB981D40078EB86 /* jujin-Hq */,
 				B65D2CDD1FB981D40078EB86 /* jujin-Trade */,
 			);
@@ -202,6 +238,7 @@
 		B65D2CC61FB96A7B0078EB86 /* jujjinProtocolbufferModels */ = {
 			isa = PBXGroup;
 			children = (
+				B6A24A08264398BB00B779FA /* mitrade */,
 				B65D2CCD1FB9777E0078EB86 /* jujin-Hq */,
 				B65D2CCC1FB9777E0078EB86 /* jujin-Trade */,
 			);
@@ -246,6 +283,41 @@
 				B65D2CE21FB981D40078EB86 /* HqMessagepush.proto */,
 			);
 			path = "jujin-Hq";
+			sourceTree = "<group>";
+		};
+		B6A24A07264398B500B779FA /* mitrade */ = {
+			isa = PBXGroup;
+			children = (
+				B6A24A0A2643998900B779FA /* balance.proto */,
+				B6A24A092643998900B779FA /* notify_info.proto */,
+				B6A24A0C2643998900B779FA /* order_status.proto */,
+				B6A24A0F2643998900B779FA /* quotation_reminder.proto */,
+				B6A24A0D2643998900B779FA /* quotation.proto */,
+				B6A24A0E2643998900B779FA /* response.proto */,
+				B6A24A0B2643998900B779FA /* trade_period_status.proto */,
+			);
+			path = mitrade;
+			sourceTree = "<group>";
+		};
+		B6A24A08264398BB00B779FA /* mitrade */ = {
+			isa = PBXGroup;
+			children = (
+				B6A24A1C264399D200B779FA /* Balance.pbobjc.h */,
+				B6A24A1E264399D200B779FA /* Balance.pbobjc.m */,
+				B6A24A1B264399D200B779FA /* NotifyInfo.pbobjc.h */,
+				B6A24A20264399D200B779FA /* NotifyInfo.pbobjc.m */,
+				B6A24A1F264399D200B779FA /* OrderStatus.pbobjc.h */,
+				B6A24A23264399D200B779FA /* OrderStatus.pbobjc.m */,
+				B6A24A21264399D200B779FA /* Quotation.pbobjc.h */,
+				B6A24A1D264399D200B779FA /* Quotation.pbobjc.m */,
+				B6A24A19264399D200B779FA /* QuotationReminder.pbobjc.h */,
+				B6A24A1A264399D200B779FA /* QuotationReminder.pbobjc.m */,
+				B6A24A24264399D200B779FA /* Response.pbobjc.h */,
+				B6A24A22264399D200B779FA /* Response.pbobjc.m */,
+				B6A24A25264399D200B779FA /* TradePeriodStatus.pbobjc.h */,
+				B6A24A26264399D200B779FA /* TradePeriodStatus.pbobjc.m */,
+			);
+			path = mitrade;
 			sourceTree = "<group>";
 		};
 		B6A2D0E61FB5423A00B245D0 = {
@@ -545,32 +617,46 @@
 				B6D42CF51FB5A6FA001E2FB5 /* GPBUnknownField.m in Sources */,
 				B6D42CFE1FB5A6FA001E2FB5 /* Wrappers.pbobjc.m in Sources */,
 				B6D42CED1FB5A6FA001E2FB5 /* GPBCodedInputStream.m in Sources */,
+				B6A24A112643998900B779FA /* balance.proto in Sources */,
 				B6D42CE91FB5A6FA001E2FB5 /* Duration.pbobjc.m in Sources */,
+				B6A24A28264399D300B779FA /* Quotation.pbobjc.m in Sources */,
 				B6D42CEB1FB5A6FA001E2FB5 /* FieldMask.pbobjc.m in Sources */,
 				B6D42CF91FB5A6FA001E2FB5 /* GPBWireFormat.m in Sources */,
 				B6D42CFC1FB5A6FA001E2FB5 /* Timestamp.pbobjc.m in Sources */,
 				B6D42CF31FB5A6FA001E2FB5 /* GPBMessage.m in Sources */,
+				B6A24A152643998900B779FA /* response.proto in Sources */,
 				B6D42CE71FB5A6FA001E2FB5 /* Any.pbobjc.m in Sources */,
 				B6D42CF21FB5A6FA001E2FB5 /* GPBExtensionRegistry.m in Sources */,
 				B6A2D0F71FB5423A00B245D0 /* ViewController.m in Sources */,
 				B65D2CF11FB983D30078EB86 /* Order.pbobjc.m in Sources */,
+				B6A24A2A264399D300B779FA /* NotifyInfo.pbobjc.m in Sources */,
 				B6A2D1021FB5423A00B245D0 /* main.m in Sources */,
 				B6D42CF41FB5A6FA001E2FB5 /* GPBRootObject.m in Sources */,
+				B6A24A142643998900B779FA /* quotation.proto in Sources */,
+				B6A24A2B264399D300B779FA /* Response.pbobjc.m in Sources */,
 				B6D42CFB1FB5A6FA001E2FB5 /* Struct.pbobjc.m in Sources */,
+				B6A24A122643998900B779FA /* trade_period_status.proto in Sources */,
 				B6D42CF81FB5A6FA001E2FB5 /* GPBWellKnownTypes.m in Sources */,
+				B6A24A27264399D200B779FA /* QuotationReminder.pbobjc.m in Sources */,
 				B6D42CF01FB5A6FA001E2FB5 /* GPBDictionary.m in Sources */,
 				B6D42CFD1FB5A6FA001E2FB5 /* Type.pbobjc.m in Sources */,
 				B6D42CF61FB5A6FA001E2FB5 /* GPBUnknownFieldSet.m in Sources */,
 				B6A2D0F41FB5423A00B245D0 /* AppDelegate.m in Sources */,
 				B6D42CEC1FB5A6FA001E2FB5 /* GPBArray.m in Sources */,
+				B6A24A102643998900B779FA /* notify_info.proto in Sources */,
 				B65D2CF01FB983D30078EB86 /* Queryorder.pbobjc.m in Sources */,
+				B6A24A2C264399D300B779FA /* OrderStatus.pbobjc.m in Sources */,
+				B6A24A29264399D300B779FA /* Balance.pbobjc.m in Sources */,
+				B6A24A2D264399D300B779FA /* TradePeriodStatus.pbobjc.m in Sources */,
 				B6119FCE1FDFC41D0003B697 /* HqMessagepush.pbobjc.m in Sources */,
 				B6D42CF11FB5A6FA001E2FB5 /* GPBExtensionInternals.m in Sources */,
 				B6D42CEA1FB5A6FA001E2FB5 /* Empty.pbobjc.m in Sources */,
 				B6D42CEF1FB5A6FA001E2FB5 /* GPBDescriptor.m in Sources */,
 				B6D42CEE1FB5A6FA001E2FB5 /* GPBCodedOutputStream.m in Sources */,
 				B6D42CE81FB5A6FA001E2FB5 /* Api.pbobjc.m in Sources */,
+				B6A24A162643998900B779FA /* quotation_reminder.proto in Sources */,
 				B6D42CFA1FB5A6FA001E2FB5 /* SourceContext.pbobjc.m in Sources */,
+				B6A24A132643998900B779FA /* order_status.proto in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

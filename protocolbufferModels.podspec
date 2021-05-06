@@ -32,6 +32,12 @@ Pod::Spec.new do |spec|
         sss.source_files = 'protocolbufferModels/jujjinProtocolbufferModels/jujin-Trade/*'
         sss.requires_arc = false; 
       end
+
+      ss.subspec 'mitrade' do |sss|
+        sss.source_files = 'protocolbufferModels/jujjinProtocolbufferModels/mitrade/*'
+        sss.requires_arc = false; 
+      end
+
   end
 
 

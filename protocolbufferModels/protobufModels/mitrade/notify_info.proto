@@ -1,0 +1,8 @@
+syntax = "proto3";
+package com.mitrade.pbs;
+
+message NotifyInfoProto{
+  string id = 1;         //消息id     用于客户的消息跳转
+  string title = 2;      //消息title  多语言title
+  string content =3;     //消息内容    多语言content
+}

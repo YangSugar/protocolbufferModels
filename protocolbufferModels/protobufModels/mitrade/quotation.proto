@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.mitrade.pbs;
+
+message QuotationProto{
+  string symbol = 1;
+  string type = 2;
+  string buyPrice = 3;
+  string sellPrice = 4;
+  string dailyHigh = 5;
+  string dailyLow = 6;
+  string lastClose = 7;
+  uint64 updateTime= 8;
+}

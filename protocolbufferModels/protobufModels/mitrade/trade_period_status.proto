@@ -1,0 +1,24 @@
+syntax = "proto3";
+package com.mitrade.pbs;
+
+//低频推送
+message TradePeriodStatusProto{
+    string symbol = 1;
+    string type = 2;
+    int64 current_start = 3;
+    int64 current_end = 4;
+    int64 next_start = 5;
+    int64 next_end = 6;
+
+    int32 status = 7;                      //TradeStatusEnum
+    int32 subStatus = 8;                   //TradeSubStatusEnum
+
+    //ios和android不推送该值tradingSession?. webtrader里面tradingview图表里面用到
+    repeated string tradingSession1 = 9;
+    repeated string tradingSession2 = 10;
+    repeated string tradingSession3 = 11;
+    repeated string tradingSession4 = 12;
+    repeated string tradingSession5 = 13;
+    repeated string tradingSession6 = 14;
+    repeated string tradingSession7 = 15;
+}

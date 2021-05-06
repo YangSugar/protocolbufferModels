@@ -1,0 +1,25 @@
+syntax = "proto3";
+package com.mitrade.pbs;
+
+//高频 balance发生变动的时候推送到客户端
+//{
+//  "availableBalance":36062.99,"availableCashout":36062.99,"balance":50201.69,
+//  "bonus":0,"credit":0,
+//  "currencyCode":"USD","equity":37081.69,
+//  "maintenanceMargin":509.350,"margin":1018.70,
+//  "marginRatio":36.4009,"overnightFunding":0.00,"profitOrLoss":-13120.00
+//}
+message BalanceProto{
+    double availableBalance = 1;    //可用余额
+    double balance = 2;             //余额
+    double equity = 3;              //净值
+    double margin = 4;              //占用保证金
+    double maintenanceMargin = 5;   //维持保证金
+    double marginRatio = 6;         //风险率
+    double profitLoss = 7;          //收益
+    string currencycode = 8;        //入金货币币种
+    double availableCashout = 9;    //可用保证金
+    double bonus = 10;               //佣金
+    double overnightFunding = 11;   //隔夜费
+    double credit = 12;             //信用值
+}

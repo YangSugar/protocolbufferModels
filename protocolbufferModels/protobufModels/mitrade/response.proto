@@ -1,0 +1,21 @@
+syntax = "proto3";
+import "quotation.proto";
+import "quotation_reminder.proto";
+import "balance.proto";
+import "trade_period_status.proto";
+import "order_status.proto";
+import "notify_info.proto";
+
+package com.mitrade.pbs;
+
+message ResponseProto{
+   int32 version = 1;                                    //版本控制,默认值是0.暂时不打算启用
+   oneof body{
+      QuotationProto quotationProto = 2;                 //报价
+      QuotationReminderProto quotationReminderProto = 3; //报价提醒
+      BalanceProto balanceProto = 4;                     //余额资产
+      OrderStatusProto orderStatusProto = 5;             //订单状态变更通知
+      TradePeriodStatusProto tradePeriodStatusProto = 6; //交易周期变更信息
+      NotifyInfoProto notifyInfoProto = 7;               //消息推送
+   }
+}
